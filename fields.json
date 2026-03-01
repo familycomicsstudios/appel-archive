@@ -44,7 +44,7 @@
   {
     "field": "official_difficulty",
     "display_name": "Official Difficulty",
-    "description": "The official difficulty rating assigned to the level.",
-    "sample_values": ["Easy", "Medium", "Hard", "Insane", "Mid Insane"]
+    "description": "The official difficulty rating assigned to the level by the creator. This can be any difficulty system.",
+    "sample_values": ["1b", "Grandmaster III",  "3.25", "Insane", "Mid Insane"]
   }
 ]
