@@ -45,6 +45,8 @@ sha256sum your_level.txt
 }
 ```
 
+Please note that fields may be omitted if needed, such as if the level has no official difficulty, name, etc. No fields are required.
+
 | Field | Type | Description |
 |---|---|---|
 | `name` | string | The primary display name of the level |
