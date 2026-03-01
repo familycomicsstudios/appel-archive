@@ -1,0 +1,4 @@
+This file is a sample level code file.
+Level code files contain the raw level data exported from the game.
+The filename (excluding the .txt extension) is the SHA256 hash of this file's contents.
+Replace this file with an actual level code and name the file accordingly.
