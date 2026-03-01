@@ -3,54 +3,168 @@
     "field": "name",
     "display_name": "Name",
     "description": "The primary name of the level.",
-    "sample_values": ["Cacti", "The Machine", "Pit of Misery"]
+    "sample_values": ["Cacti", "The Machine", "Pit of Misery"],
+    "simple": true
   },
   {
     "field": "alternate_names",
     "display_name": "Alternate Names",
     "description": "Other names the level may be known by.",
-    "sample_values": [["Sample", "Example Level"], ["TM"]]
+    "sample_values": [["Sample", "Example Level"], ["TM"]],
+    "simple": true
   },
   {
     "field": "acronym",
     "display_name": "Acronym",
     "description": "A short acronym for the level name.",
-    "sample_values": ["SL", "PoM"]
+    "sample_values": ["SL", "PoM"],
+    "simple": true
   },
   {
     "field": "creators",
     "display_name": "Creator(s)",
     "description": "The person or people who created the level.",
-    "sample_values": ["Themadpunter", ["Creator One", "Creator Two"]]
+    "sample_values": ["Themadpunter", ["Creator One", "Creator Two"]],
+    "simple": true
   },
   {
     "field": "description",
     "display_name": "Description",
     "description": "A brief description of the level.",
-    "sample_values": ["A short one screen level created by Themadpunter."]
+    "sample_values": ["A short one screen level created by Themadpunter."],
+    "simple": true
   },
   {
     "field": "mod",
     "display_name": "Mod",
     "description": "The Appel mod this level belongs to.",
-    "sample_values": ["Sample Appel", "AToW: Pit of Misery"]
+    "sample_values": ["Sample Appel", "AToW: Pit of Misery"],
+    "simple": true
   },
   {
     "field": "mod_url",
     "display_name": "Mod URL",
     "description": "A link to the mod page or download.",
-    "sample_values": ["https://sampleappel.example.com"]
+    "sample_values": ["https://sampleappel.example.com"],
+    "simple": true
   },
   {
     "field": "official_difficulty",
     "display_name": "Official Difficulty",
     "description": "The official difficulty rating assigned to the level by the creator. This can be any difficulty system.",
-    "sample_values": ["1b", "Grandmaster III",  "3.25", "Insane", "Mid Insane"]
+    "sample_values": ["1b", "Grandmaster III",  "3.25", "Insane", "Mid Insane"],
+    "simple": true
   },
   {
     "field": "level_code",
     "display_name": "Level Code",
     "description": "Paste the raw level code exported from the game. It will be hashed (SHA-256) and stored as code_hash in the output.",
-    "sample_values": []
+    "sample_values": [],
+    "simple": true
+  },
+  {
+    "field": "source",
+    "display_name": "Level Source",
+    "description": "The source of the level (e.g., a mod, a forum post, a Discord message etc.). Should be a URL if one exists.",
+    "sample_values": ["https://scratch.mit.edu/discuss/post/1234567/", "https://discord.com/channels/123456789012345678/123456789012345678/123456789012345678", "https://scratch.mit.edu/projects/123456789/"],
+    "simple": true
+  },
+  {
+    "field": "notes",
+    "display_name": "Notes",
+    "description": "Any additional notes about the level.",
+    "sample_values": ["This level is part of a series.", "This level is known for its unique mechanics."],
+    "simple": true
+  },
+  {
+    "field": "punter_scale_difficulty_rating",
+    "display_name": "Punter Scale Difficulty Rating",
+    "description": "The difficulty rating of the level on the Themadpunter difficulty scale (taken from the ALDR if possible). Decimal values preferred",
+    "sample_values": [1.0, 2.5, 3.25, 4.0]
+  },
+  {
+    "field": "michael_chan_difficulty_rating",
+    "display_name": "Michael Chan Difficulty Rating",
+    "description": "The difficulty rating of the level on the Michael Chan difficulty scale",
+    "sample_values": ["1b", "3e"]
+  },
+  {
+    "field": "michael_chan_extended_difficulty_rating",
+    "display_name": "Michael Chan (Extended) Difficulty Rating",
+    "description": "The difficulty rating of the level on the Michael Chan Extended difficulty scale",
+    "sample_values": ["1b", "3e", "1d", "5s"]
+  },
+  {
+    "field": "new_michael_chan_difficulty_rating",
+    "display_name": "New Michael Chan Difficulty Rating",
+    "description": "The numerical difficulty rating of the level on the New Michael Chan difficulty scale",
+    "sample_values": ["1", "3+", "4", "9"]
+  },
+  {
+    "field": "scheeep_difficulty_rating",
+    "display_name": "Scheeep Difficulty Rating",
+    "description": "The difficulty rating of the level on the Scheeep difficulty scale",
+    "sample_values": ["Baby", "Extreme", "???????", "Impossible"]
+  },
+  {
+    "field": "scheeep_extended_difficulty_rating",
+    "display_name": "Scheeep (Extended) Difficulty Rating",
+    "description": "The difficulty rating of the level on the Scheeep Extended difficulty scale",
+    "sample_values": ["Baby", "Easy", "Remorseless", "Xtreme", "Impossible", "Cwktao's Wrath"]
+  },
+  {
+    "field": "scheeep_extended_numerical_difficulty_rating",
+    "display_name": "Scheeep Extended Numerical Difficulty Rating",
+    "description": "The numerical difficulty rating of the level on the Scheeep Extended difficulty scale",
+    "sample_values": [0.5, 1.0, 2.5, 4.0, 5.0, 6.0]
+  },
+  {
+    "field": "new_grassy_difficulty_scale_rating",
+    "display_name": "New Grassy Difficulty Scale Rating",
+    "description": "The difficulty rating of the level on the New Grassy Difficulty Scale",
+    "sample_values": ["Low Grandmaster I", "High Master", "Low Expert", "Expert", "Grandmaster IV"]
+  },
+  {
+    "field": "agro_difficulty_rating",
+    "display_name": "Agro Difficulty Rating",
+    "description": "The difficulty rating of the level on the Agro difficulty scale",
+    "sample_values": ["1", "2", "3", "4", "5"]
+  },
+  {
+    "field": "practice_difficulty_rating",
+    "display_name": "Practice Difficulty Rating",
+    "description": "The difficulty rating of the level on the Practice difficulty scale",
+    "sample_values": ["1", "2", "3", "4", "5"]
+  },
+  {
+    "field": "balanced_michaelchan_difficulty_rating",
+    "display_name": "Balanced Michael Chan Difficulty Rating",
+    "description": "The difficulty rating of the level on the Balanced Michael Chan difficulty scale",
+    "sample_values": ["1e", "2e", "3e", "4e", "5e"]
+  },
+  {
+    "field": "aldr_id",
+    "display_name": "ALDR ID",
+    "description": "The unique ID of the level on the ALDR, if it is placed there.",
+    "sample_values": ["123", "456"]
+  },
+  {
+    "field": "ahll_id",
+    "display_name": "AHLL ID",
+    "description": "The unique ID of the level on the AHLL, if it is placed there.",
+    "sample_values": ["123", "456"]
+  },
+  {
+    "field": "aill_id",
+    "display_name": "AILL ID",
+    "description": "The unique ID of the level on the AILL, if it is placed there.",
+    "sample_values": ["123", "456"]
+  },
+  {
+    "field": "other_difficulty_system_ratings",
+    "display_name": "Other Difficulty System Ratings",
+    "description": "A dictionary of difficulty ratings on other difficulty systems not listed above. The keys should be the name of the difficulty system, and the values should be the difficulty rating on that system.",
+    "sample_values": [{"Custom Difficulty System": "Rating"}, {"Another System": "Rating"}],
+    "simple": true
   }
 ]

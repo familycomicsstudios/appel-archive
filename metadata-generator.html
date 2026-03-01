@@ -21,6 +21,20 @@
 
     .back-link { display: inline-block; margin-bottom: 1.5rem; color: #0066cc; }
 
+    .mode-toggle {
+      margin-bottom: 1.2rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: #333;
+      font-size: 0.95rem;
+    }
+
+    .mode-toggle input[type="checkbox"] {
+      width: auto;
+      margin: 0;
+    }
+
     .field-group {
       margin-bottom: 1.2rem;
     }
@@ -125,6 +139,11 @@
   <p class="subtitle">Fill in the fields below to generate a level metadata JSON file.</p>
   <a class="back-link" href="index.html">← Back to Level Search</a>
 
+  <label class="mode-toggle" for="advanced-mode">
+    <input type="checkbox" id="advanced-mode" />
+    Advanced mode
+  </label>
+
   <div id="form-container">
     <p>Loading fields…</p>
   </div>
@@ -146,11 +165,24 @@
       return field.sample_values.some(v => Array.isArray(v));
     }
 
+    function isSimpleField(field) {
+      return field.simple === true;
+    }
+
+    function getVisibleFields() {
+      const advancedModeCheckbox = document.getElementById('advanced-mode');
+      const advancedModeEnabled = advancedModeCheckbox && advancedModeCheckbox.checked;
+      if (advancedModeEnabled) return fields;
+      return fields.filter(isSimpleField);
+    }
+
     function buildForm() {
       const container = document.getElementById('form-container');
       container.innerHTML = '';
 
-      fields.forEach(field => {
+      const visibleFields = getVisibleFields();
+
+      visibleFields.forEach(field => {
         const group = document.createElement('div');
         group.className = 'field-group';
 
@@ -217,7 +249,7 @@
       };
 
       const finish = (codeHash) => {
-        fields.forEach(field => {
+        getVisibleFields().forEach(field => {
           if (field.field === 'level_code') return;
           const input = document.getElementById('field-' + field.field);
           if (!input) return;
@@ -268,6 +300,10 @@
         msg.classList.add('visible');
         setTimeout(() => msg.classList.remove('visible'), 2000);
       });
+    });
+
+    document.getElementById('advanced-mode').addEventListener('change', () => {
+      buildForm();
     });
 
     async function init() {
