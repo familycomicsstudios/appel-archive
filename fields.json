@@ -1,0 +1,50 @@
+[
+  {
+    "field": "name",
+    "display_name": "Name",
+    "description": "The primary name of the level.",
+    "sample_values": ["Cacti", "The Machine", "Pit of Misery"]
+  },
+  {
+    "field": "alternate_names",
+    "display_name": "Alternate Names",
+    "description": "Other names the level may be known by.",
+    "sample_values": [["Sample", "Example Level"], ["TM"]]
+  },
+  {
+    "field": "acronym",
+    "display_name": "Acronym",
+    "description": "A short acronym for the level name.",
+    "sample_values": ["SL", "PoM"]
+  },
+  {
+    "field": "creators",
+    "display_name": "Creator(s)",
+    "description": "The person or people who created the level.",
+    "sample_values": ["Themadpunter", ["Creator One", "Creator Two"]]
+  },
+  {
+    "field": "description",
+    "display_name": "Description",
+    "description": "A brief description of the level.",
+    "sample_values": ["A short one screen level created by Themadpunter."]
+  },
+  {
+    "field": "mod",
+    "display_name": "Mod",
+    "description": "The Appel mod this level belongs to.",
+    "sample_values": ["Sample Appel", "AToW: Pit of Misery"]
+  },
+  {
+    "field": "mod_url",
+    "display_name": "Mod URL",
+    "description": "A link to the mod page or download.",
+    "sample_values": ["https://sampleappel.example.com"]
+  },
+  {
+    "field": "official_difficulty",
+    "display_name": "Official Difficulty",
+    "description": "The official difficulty rating assigned to the level.",
+    "sample_values": ["Easy", "Medium", "Hard", "Insane", "Mid Insane"]
+  }
+]
