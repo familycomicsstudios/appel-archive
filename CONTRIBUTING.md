@@ -40,6 +40,7 @@ sha256sum your_level.txt
   "creators": ["Creator One", "Creator Two"],
   "description": "A brief description of the level.",
   "mod": "Name of the mod the level originates from",
+  "mod_url": "The URL to the mod the level originates from",
   "official_difficulty": "Easy / Medium / Hard / etc."
 }
 ```
@@ -51,8 +52,9 @@ sha256sum your_level.txt
 | `acronym` | string | A short acronym for the level name |
 | `creators` | array of strings | The username(s) of the level's creator(s) |
 | `description` | string | A brief description of the level |
-| `mod` | string | The mod the level originates from (use `"Vanilla"` if none) |
-| `official_difficulty` | string | The official rated difficulty of the level |
+| `mod` | string | The mod the level originates from (leave blank if none) |
+| `mod_url` | string | A link to the mod the level originates from (leave blank if none) |
+| `official_difficulty` | string | The official rated difficulty of the level, according to the mod or creator (this can be in any format) |
 
 5. **Open a pull request** with both files included.
 
