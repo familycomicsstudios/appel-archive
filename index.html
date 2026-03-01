@@ -105,6 +105,24 @@
   <div id="result"></div>
 
   <script>
+    let fieldsMap = {};
+    let fieldsOrder = [];
+
+    async function loadFields() {
+      try {
+        const response = await fetch('fields.json');
+        if (response.ok) {
+          const fields = await response.json();
+          fields.forEach(f => {
+            fieldsMap[f.field] = f;
+            fieldsOrder.push(f.field);
+          });
+        }
+      } catch (err) {
+        console.warn('Failed to load fields.json:', err);
+      }
+    }
+
     async function sha256Hex(text) {
       const encoded = new TextEncoder().encode(text);
       const hashBuffer = await crypto.subtle.digest('SHA-256', encoded);
@@ -121,9 +139,25 @@
     }
 
     function fieldLabel(key) {
+      if (fieldsMap[key] && fieldsMap[key].display_name) {
+        return fieldsMap[key].display_name;
+      }
       return key
         .replace(/_/g, ' ')
         .replace(/\b\w/g, c => c.toUpperCase());
+    }
+
+    function fieldDescription(key) {
+      return fieldsMap[key] && fieldsMap[key].description
+        ? fieldsMap[key].description
+        : '';
+    }
+
+    function sortedKeys(data) {
+      const dataKeys = Object.keys(data);
+      const ordered = fieldsOrder.filter(k => dataKeys.includes(k));
+      const remaining = dataKeys.filter(k => !fieldsOrder.includes(k));
+      return ordered.concat(remaining);
     }
 
     function renderValue(value) {
@@ -202,10 +236,12 @@
       }
 
       const table = document.createElement('table');
-      keys.forEach(key => {
+      sortedKeys(data).forEach(key => {
         const tr = document.createElement('tr');
         const th = document.createElement('th');
         th.textContent = fieldLabel(key);
+        const desc = fieldDescription(key);
+        if (desc) th.title = desc;
         const td = document.createElement('td');
         td.appendChild(renderValue(data[key]));
         tr.appendChild(th);
@@ -219,6 +255,8 @@
     document.getElementById('level-code').addEventListener('keydown', e => {
       if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) search();
     });
+
+    loadFields();
   </script>
 </body>
 </html>
