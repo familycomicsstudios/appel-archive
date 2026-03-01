@@ -46,5 +46,11 @@
     "display_name": "Official Difficulty",
     "description": "The official difficulty rating assigned to the level by the creator. This can be any difficulty system.",
     "sample_values": ["1b", "Grandmaster III",  "3.25", "Insane", "Mid Insane"]
+  },
+  {
+    "field": "level_code",
+    "display_name": "Level Code",
+    "description": "Paste the raw level code exported from the game. It will be hashed (SHA-256) and stored as code_hash in the output.",
+    "sample_values": []
   }
 ]

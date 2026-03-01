@@ -170,7 +170,7 @@
         const array = isArrayField(field);
 
         let input;
-        if (field.field === 'description') {
+        if (field.field === 'description' || field.field === 'level_code') {
           input = document.createElement('textarea');
         } else if (field.field === 'mod_url') {
           input = document.createElement('input');
@@ -205,28 +205,59 @@
 
     function generateJSON() {
       const result = {};
+      const codeInput = document.getElementById('field-level_code');
+      const codeValue = codeInput ? codeInput.value : '';
 
-      fields.forEach(field => {
-        const input = document.getElementById('field-' + field.field);
-        if (!input) return;
+      const showError = (msg) => {
+        const outputEl = document.getElementById('json-output');
+        outputEl.value = '// Error: ' + msg;
+        const section = document.getElementById('output-section');
+        section.style.display = '';
+        section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      };
 
-        const raw = input.value.trim();
-        if (!raw) return;
+      const finish = (codeHash) => {
+        fields.forEach(field => {
+          if (field.field === 'level_code') return;
+          const input = document.getElementById('field-' + field.field);
+          if (!input) return;
 
-        if (input.dataset.isArray === 'true') {
-          result[field.field] = raw.split(',').map(s => s.trim()).filter(s => s.length > 0);
-        } else {
-          result[field.field] = raw;
+          const raw = input.value.trim();
+          if (!raw) return;
+
+          if (input.dataset.isArray === 'true') {
+            result[field.field] = raw.split(',').map(s => s.trim()).filter(s => s.length > 0);
+          } else {
+            result[field.field] = raw;
+          }
+        });
+
+        if (codeHash) {
+          result['code_hash'] = codeHash;
         }
-      });
 
-      const json = JSON.stringify(result, null, 2);
-      const outputEl = document.getElementById('json-output');
-      outputEl.value = json;
+        const json = JSON.stringify(result, null, 2);
+        const outputEl = document.getElementById('json-output');
+        outputEl.value = json;
 
-      const section = document.getElementById('output-section');
-      section.style.display = '';
-      section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        const section = document.getElementById('output-section');
+        section.style.display = '';
+        section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      };
+
+      if (codeValue.trim()) {
+        const encoder = new TextEncoder();
+        const data = encoder.encode(codeValue);
+        crypto.subtle.digest('SHA-256', data).then(hashBuffer => {
+          const hashArray = Array.from(new Uint8Array(hashBuffer));
+          const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+          finish(hashHex);
+        }).catch(err => {
+          showError('Failed to hash level code: ' + err.message);
+        });
+      } else {
+        finish(null);
+      }
     }
 
     document.getElementById('copy-btn').addEventListener('click', () => {
