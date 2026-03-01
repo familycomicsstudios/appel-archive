@@ -4,6 +4,7 @@
   "acronym": "SL",
   "creators": ["Creator One", "Creator Two"],
   "description": "A brief description of the level goes here.",
-  "mod": "Vanilla",
+  "mod": "Sample Appel",
+  "mod_url": "https://sampleappel.example.com",
   "official_difficulty": "Medium"
 }
