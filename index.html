@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Appel Archive – Level Search</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+
+    body {
+      font-family: system-ui, sans-serif;
+      max-width: 720px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      background: #f8f8f8;
+      color: #222;
+    }
+
+    h1 { margin-bottom: 0.25rem; }
+    p.subtitle { color: #555; margin-top: 0; }
+
+    label { display: block; font-weight: 600; margin-bottom: 0.4rem; }
+
+    textarea {
+      width: 100%;
+      height: 140px;
+      padding: 0.6rem;
+      font-family: monospace;
+      font-size: 0.9rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      resize: vertical;
+    }
+
+    button {
+      margin-top: 0.6rem;
+      padding: 0.5rem 1.4rem;
+      font-size: 1rem;
+      cursor: pointer;
+      background: #0066cc;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+    }
+    button:hover { background: #0052a3; }
+
+    #hash-display {
+      margin-top: 0.5rem;
+      font-family: monospace;
+      font-size: 0.8rem;
+      color: #555;
+      word-break: break-all;
+    }
+
+    #result {
+      margin-top: 1.5rem;
+    }
+
+    .error {
+      color: #c00;
+      background: #fff0f0;
+      border: 1px solid #f99;
+      border-radius: 4px;
+      padding: 0.7rem 1rem;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      overflow: hidden;
+    }
+
+    th, td {
+      text-align: left;
+      padding: 0.55rem 0.8rem;
+      border-bottom: 1px solid #eee;
+      vertical-align: top;
+    }
+
+    th {
+      width: 35%;
+      background: #f0f4f8;
+      font-weight: 600;
+      color: #444;
+    }
+
+    tr:last-child th,
+    tr:last-child td { border-bottom: none; }
+
+    a { color: #0066cc; }
+  </style>
+</head>
+<body>
+  <h1>Appel Archive</h1>
+  <p class="subtitle">Enter a level code below to look up its metadata.</p>
+
+  <label for="level-code">Level code</label>
+  <textarea id="level-code" placeholder="Paste level code here…"></textarea>
+  <button id="search-btn">Search</button>
+  <div id="hash-display"></div>
+
+  <div id="result"></div>
+
+  <script>
+    async function sha256Hex(text) {
+      const encoded = new TextEncoder().encode(text);
+      const hashBuffer = await crypto.subtle.digest('SHA-256', encoded);
+      return Array.from(new Uint8Array(hashBuffer))
+        .map(b => b.toString(16).padStart(2, '0'))
+        .join('');
+    }
+
+    function makeError(msg) {
+      const p = document.createElement('p');
+      p.className = 'error';
+      p.textContent = msg;
+      return p;
+    }
+
+    function fieldLabel(key) {
+      return key
+        .replace(/_/g, ' ')
+        .replace(/\b\w/g, c => c.toUpperCase());
+    }
+
+    function renderValue(value) {
+      if (Array.isArray(value)) {
+        if (value.length === 0) return document.createTextNode('—');
+        const ul = document.createElement('ul');
+        ul.style.margin = '0';
+        ul.style.paddingLeft = '1.2rem';
+        value.forEach(item => {
+          const li = document.createElement('li');
+          li.textContent = String(item);
+          ul.appendChild(li);
+        });
+        return ul;
+      }
+      if (typeof value === 'string' && /^https?:\/\//i.test(value)) {
+        const a = document.createElement('a');
+        a.href = value;
+        a.textContent = value;
+        a.target = '_blank';
+        a.rel = 'noopener noreferrer';
+        return a;
+      }
+      if (value === null || value === undefined || value === '') {
+        return document.createTextNode('—');
+      }
+      if (typeof value === 'object') {
+        return document.createTextNode(JSON.stringify(value, null, 2));
+      }
+      return document.createTextNode(String(value));
+    }
+
+    async function search() {
+      const code = document.getElementById('level-code').value;
+      const resultEl = document.getElementById('result');
+      const hashEl = document.getElementById('hash-display');
+
+      resultEl.innerHTML = '';
+      hashEl.textContent = '';
+
+      if (!code.trim()) {
+        resultEl.appendChild(makeError('Please enter a level code.'));
+        return;
+      }
+
+      const hash = await sha256Hex(code);
+      if (!/^[0-9a-f]{64}$/.test(hash)) {
+        resultEl.appendChild(makeError('Unexpected hash format. Please try again.'));
+        return;
+      }
+      hashEl.textContent = 'SHA-256: ' + hash;
+
+      let data;
+      try {
+        const response = await fetch('Levels/meta/' + hash + '.json');
+        if (response.status === 404) {
+          resultEl.appendChild(makeError('No metadata found for this level code.'));
+          return;
+        }
+        if (!response.ok) {
+          resultEl.appendChild(makeError('Error fetching metadata (HTTP ' + response.status + ').'));
+          return;
+        }
+        data = await response.json();
+      } catch (err) {
+        resultEl.appendChild(makeError('Failed to fetch metadata: ' + err.message));
+        return;
+      }
+
+      const keys = Object.keys(data);
+      if (keys.length === 0) {
+        const p = document.createElement('p');
+        p.textContent = 'Metadata file exists but contains no fields.';
+        resultEl.appendChild(p);
+        return;
+      }
+
+      const table = document.createElement('table');
+      keys.forEach(key => {
+        const tr = document.createElement('tr');
+        const th = document.createElement('th');
+        th.textContent = fieldLabel(key);
+        const td = document.createElement('td');
+        td.appendChild(renderValue(data[key]));
+        tr.appendChild(th);
+        tr.appendChild(td);
+        table.appendChild(tr);
+      });
+      resultEl.appendChild(table);
+    }
+
+    document.getElementById('search-btn').addEventListener('click', search);
+    document.getElementById('level-code').addEventListener('keydown', e => {
+      if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) search();
+    });
+  </script>
+</body>
+</html>
