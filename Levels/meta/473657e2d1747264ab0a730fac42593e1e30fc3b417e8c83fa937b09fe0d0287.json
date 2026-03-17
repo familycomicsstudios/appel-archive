@@ -1,0 +1,12 @@
+{
+  "name": "Hopelessness",
+  "creators": "stu0003z1",
+  "official_difficulty": "10.75",
+  "punter_scale_difficulty_rating": "10.75",
+  "aldr_id": "308",
+  "code_hash": "473657e2d1747264ab0a730fac42593e1e30fc3b417e8c83fa937b09fe0d0287",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.5"
+  },
+  "notes": "Impossible: true"
+}

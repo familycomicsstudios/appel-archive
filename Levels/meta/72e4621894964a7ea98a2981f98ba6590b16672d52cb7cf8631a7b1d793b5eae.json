@@ -1,0 +1,12 @@
+{
+  "name": "Tight Timing",
+  "creators": "OrangeFruit",
+  "official_difficulty": "3.65",
+  "punter_scale_difficulty_rating": "3.65",
+  "aldr_id": "44",
+  "code_hash": "72e4621894964a7ea98a2981f98ba6590b16672d52cb7cf8631a7b1d793b5eae",
+  "source": "https://scratch.mit.edu/projects/896453062",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.5"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Deimos",
+  "creators": "OrangeFruit",
+  "official_difficulty": "10.25",
+  "punter_scale_difficulty_rating": "10.25",
+  "aldr_id": "82",
+  "code_hash": "793338e7eb3efa55f7aa3985895210d720be75902f8a98bdf8e68c411a09ccde",
+  "source": "https://scratch.mit.edu/projects/896453062",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.6"
+  },
+  "notes": "Impossible: true"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Spun",
+  "creators": "swskrei",
+  "official_difficulty": "2.25",
+  "punter_scale_difficulty_rating": "2.25",
+  "aldr_id": "304",
+  "code_hash": "bc5f3d299d83998f3337af50f83ff6ff1334592e70e6dfa02f5c0bf013b743f9",
+  "source": "https://scratch.mit.edu/projects/953344668",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.5"
+  }
+}

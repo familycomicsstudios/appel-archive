@@ -1,0 +1,12 @@
+{
+  "name": "Silent Spiked",
+  "creators": "Yestez343",
+  "official_difficulty": "5.27",
+  "punter_scale_difficulty_rating": "5.27",
+  "aldr_id": "424",
+  "code_hash": "f8990e780952749f08e5d2083fc10f8cb6771ab9b61a6b9cb37bd7244896b5bc",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.7"
+  },
+  "notes": "Challenge: true"
+}

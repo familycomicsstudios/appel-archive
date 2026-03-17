@@ -1,0 +1,12 @@
+{
+  "name": "Vanity of Valor",
+  "creators": "Barretcoder",
+  "official_difficulty": "13.65",
+  "punter_scale_difficulty_rating": "13.65",
+  "aldr_id": "207",
+  "code_hash": "ac581cd53188be7c27b0c38ef0ec7db363c0aa43ea4c1d6894b6dee5f51204be",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.7"
+  },
+  "notes": "Impossible: true"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Bloodshot",
+  "creators": "CAKEC0DER",
+  "official_difficulty": "7.60",
+  "punter_scale_difficulty_rating": "7.60",
+  "aldr_id": "199",
+  "code_hash": "710f6a3ccce60c3f2935ad9b3d05e21d262283b97a41ac3ae0b49387059790b0",
+  "source": "/assets/thumbnails/bs.png",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.6"
+  }
+}

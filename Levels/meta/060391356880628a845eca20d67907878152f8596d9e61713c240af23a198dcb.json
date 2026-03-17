@@ -1,0 +1,13 @@
+{
+  "name": "Spikefall",
+  "creators": "OrangeFruit",
+  "official_difficulty": "6.04",
+  "punter_scale_difficulty_rating": "6.04",
+  "aldr_id": "108",
+  "code_hash": "060391356880628a845eca20d67907878152f8596d9e61713c240af23a198dcb",
+  "source": "https://scratch.mit.edu/projects/896453062",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.5"
+  },
+  "video": "https://www.youtube.com/watch?v=qmLIXDPkM2k"
+}

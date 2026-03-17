@@ -1,0 +1,12 @@
+{
+  "name": "Pinky",
+  "creators": "AndyDuongPhong",
+  "official_difficulty": "13.75",
+  "punter_scale_difficulty_rating": "13.75",
+  "aldr_id": "202",
+  "code_hash": "580e590a38aa043a16db7af4a703bb9b6b8a1adcc7a5ecea5f00e62c4c5b7db6",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.5"
+  },
+  "notes": "Impossible: true"
+}

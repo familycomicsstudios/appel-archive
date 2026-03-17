@@ -1,0 +1,11 @@
+{
+  "name": "Overgrowth",
+  "creators": "taliix",
+  "official_difficulty": "6.19",
+  "punter_scale_difficulty_rating": "6.19",
+  "aldr_id": "364",
+  "code_hash": "18a857d801c633d2e39bde50f1c987437076ce444de219059b951cd01dc7de3c",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.5"
+  }
+}

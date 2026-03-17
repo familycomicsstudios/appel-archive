@@ -1,0 +1,12 @@
+{
+  "name": "Effortlessness",
+  "creators": "Themadpunter",
+  "official_difficulty": "0.50",
+  "punter_scale_difficulty_rating": "0.50",
+  "notes": "floor easy, anything below this is essentially auto",
+  "aldr_id": "351",
+  "code_hash": "ef5d0ac099f63871b34a461de51e4323ea799e493bd99323010ce0adbae0e60d",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.5"
+  }
+}

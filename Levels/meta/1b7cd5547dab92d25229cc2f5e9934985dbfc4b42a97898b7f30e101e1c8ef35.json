@@ -1,0 +1,13 @@
+{
+  "name": "Kinesiophobia",
+  "creators": "Barretcoder",
+  "official_difficulty": "13.25",
+  "punter_scale_difficulty_rating": "13.25",
+  "aldr_id": "219",
+  "code_hash": "1b7cd5547dab92d25229cc2f5e9934985dbfc4b42a97898b7f30e101e1c8ef35",
+  "source": "https://www.youtube.com/watch?v=XiHta5hrILY",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.5"
+  },
+  "notes": "Impossible: true"
+}

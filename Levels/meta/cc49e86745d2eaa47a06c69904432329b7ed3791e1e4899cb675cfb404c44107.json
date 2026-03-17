@@ -1,0 +1,12 @@
+{
+  "name": "Floating Point",
+  "creators": "lakadooky",
+  "official_difficulty": "8.05",
+  "punter_scale_difficulty_rating": "8.05",
+  "notes": "https://scratch.mit.edu/discuss/topic/807734/?page=57#post-8966105\\nImpossible: true",
+  "aldr_id": "346",
+  "code_hash": "cc49e86745d2eaa47a06c69904432329b7ed3791e1e4899cb675cfb404c44107",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.5"
+  }
+}

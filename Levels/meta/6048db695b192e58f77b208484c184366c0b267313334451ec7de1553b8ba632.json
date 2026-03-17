@@ -1,0 +1,12 @@
+{
+  "name": "Time Leaper",
+  "creators": "Barretcoder",
+  "official_difficulty": "11.75",
+  "punter_scale_difficulty_rating": "11.75",
+  "aldr_id": "383",
+  "code_hash": "6048db695b192e58f77b208484c184366c0b267313334451ec7de1553b8ba632",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.5"
+  },
+  "notes": "Impossible: true"
+}

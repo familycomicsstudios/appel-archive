@@ -1,0 +1,14 @@
+{
+  "name": "Kaleidoscope",
+  "creators": "OrangeFruit",
+  "official_difficulty": "8.15",
+  "punter_scale_difficulty_rating": "8.15",
+  "notes": "Level must be played in the level project",
+  "aldr_id": "7",
+  "code_hash": "40fda782cb52c5e123f06f2bea21b8c25f74b18b6bc5f4c6c42a65c517fe0f68",
+  "source": "https://scratch.mit.edu/projects/1165052137/",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.65"
+  },
+  "video": "https://www.youtube.com/watch?v=7XIskU21OgE"
+}

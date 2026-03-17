@@ -1,0 +1,11 @@
+{
+  "name": "Psammon",
+  "creators": "Krackerz",
+  "official_difficulty": "7.02",
+  "punter_scale_difficulty_rating": "7.02",
+  "aldr_id": "24",
+  "code_hash": "e1f6750f11a093ff3503227780fdbd0f007340adc52be4a3dc5d334a6b2ea4ac",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.5"
+  }
+}

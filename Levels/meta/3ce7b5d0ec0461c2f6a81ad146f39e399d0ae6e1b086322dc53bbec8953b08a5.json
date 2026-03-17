@@ -1,0 +1,14 @@
+{
+  "name": "Scarlet Eclipse",
+  "creators": "OrangeFruit",
+  "official_difficulty": "5.45",
+  "punter_scale_difficulty_rating": "5.45",
+  "notes": "Formerly called \"Bloodbath\"",
+  "aldr_id": "35",
+  "code_hash": "3ce7b5d0ec0461c2f6a81ad146f39e399d0ae6e1b086322dc53bbec8953b08a5",
+  "source": "https://scratch.mit.edu/projects/896453062",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.5"
+  },
+  "video": "https://www.youtube.com/watch?v=Yfvhdtk0FsI"
+}

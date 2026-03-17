@@ -1,0 +1,12 @@
+{
+  "name": "Catalyst x2",
+  "creators": "swskrei & tyclev",
+  "official_difficulty": "7.31",
+  "punter_scale_difficulty_rating": "7.31",
+  "notes": "Catalyst but twice in a row\\nChallenge: true",
+  "aldr_id": "419",
+  "code_hash": "687b8d0479f6bd8c6d44c56dc493a6d24a0f1086dc5165dc296bc369b7d08407",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.3"
+  }
+}

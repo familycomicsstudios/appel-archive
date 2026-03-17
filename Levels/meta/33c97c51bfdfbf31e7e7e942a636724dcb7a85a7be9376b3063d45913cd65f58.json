@@ -1,0 +1,12 @@
+{
+  "name": "Phobos",
+  "creators": "OrangeFruit",
+  "official_difficulty": "2.45",
+  "punter_scale_difficulty_rating": "2.45",
+  "aldr_id": "64",
+  "code_hash": "33c97c51bfdfbf31e7e7e942a636724dcb7a85a7be9376b3063d45913cd65f58",
+  "source": "https://scratch.mit.edu/projects/896453062",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.4"
+  }
+}

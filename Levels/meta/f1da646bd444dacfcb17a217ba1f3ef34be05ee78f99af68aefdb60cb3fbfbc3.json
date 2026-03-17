@@ -1,0 +1,14 @@
+{
+  "name": "Lunar Abyss",
+  "creators": "OrangeFruit",
+  "official_difficulty": "5.25",
+  "punter_scale_difficulty_rating": "5.25",
+  "notes": "New version of the level",
+  "aldr_id": "36",
+  "code_hash": "f1da646bd444dacfcb17a217ba1f3ef34be05ee78f99af68aefdb60cb3fbfbc3",
+  "source": "https://scratch.mit.edu/projects/896453062",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.6"
+  },
+  "video": "https://www.youtube.com/watch?v=XCnfV1Fgo_8"
+}

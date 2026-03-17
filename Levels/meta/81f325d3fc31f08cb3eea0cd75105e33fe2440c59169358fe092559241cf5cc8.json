@@ -1,0 +1,12 @@
+{
+  "name": "Hindrance",
+  "creators": "Krackerz",
+  "official_difficulty": "5.05",
+  "punter_scale_difficulty_rating": "5.05",
+  "aldr_id": "445",
+  "code_hash": "81f325d3fc31f08cb3eea0cd75105e33fe2440c59169358fe092559241cf5cc8",
+  "source": "https://scratch.mit.edu/projects/970869402",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.5"
+  }
+}

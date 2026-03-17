@@ -1,0 +1,12 @@
+{
+  "name": "Poison Gardens",
+  "creators": "MichaelChan",
+  "official_difficulty": "2.75",
+  "punter_scale_difficulty_rating": "2.75",
+  "aldr_id": "60",
+  "code_hash": "50f0b9cb2162ed018cf6ad1fc1b0f9fa118f364a33f66187fea24f434d41c19f",
+  "source": "https://www.youtube.com/watch?v=VZpTcY9SPOw",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.4"
+  }
+}

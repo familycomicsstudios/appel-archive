@@ -70,6 +70,13 @@
     "simple": true
   },
   {
+    "field": "video",
+    "display_name": "Video",
+    "description": "A link to a completion or showcase video for the level.",
+    "sample_values": ["https://www.youtube.com/watch?v=dQw4w9WgXcQ", "https://youtu.be/dQw4w9WgXcQ"],
+    "simple": true
+  },
+  {
     "field": "notes",
     "display_name": "Notes",
     "description": "Any additional notes about the level.",

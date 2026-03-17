@@ -1,0 +1,12 @@
+{
+  "name": "Litejump Corridor II",
+  "creators": "Themadpunter",
+  "official_difficulty": "4.06",
+  "punter_scale_difficulty_rating": "4.06",
+  "notes": "buff of litejump corridor",
+  "aldr_id": "354",
+  "code_hash": "3d7c5d18202f5f823a1344751d5048b09545a4f81083e5fed975790fb5f8c9fc",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.8"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Avernus",
+  "creators": [
+    "Orangefruit",
+    "Harry_Pottery",
+    "Krackerz"
+  ],
+  "official_difficulty": "6.50",
+  "punter_scale_difficulty_rating": "6.50",
+  "aldr_id": "21",
+  "code_hash": "49ef4293aa67a2591ba3c7c9f613803dafa4233e00673e4809cab906e246c365",
+  "source": "https://scratch.mit.edu/projects/1052441195",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.5"
+  }
+}

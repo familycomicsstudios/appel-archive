@@ -1,0 +1,14 @@
+{
+  "name": "Hexagon Dash",
+  "creators": "OrangeFruit",
+  "official_difficulty": "5.60",
+  "punter_scale_difficulty_rating": "5.60",
+  "notes": "Old Lunatic Appel level, replaced by Neurofragmentaton in v3.4",
+  "aldr_id": "420",
+  "code_hash": "264f854cdc3a092c6d237d17002d43a6669ab2ddc9a54030fbc82f9eae6d163a",
+  "source": "https://scratch.mit.edu/projects/896453062",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.5"
+  },
+  "video": "https://www.youtube.com/watch?v=kN7Xr55nqwY"
+}

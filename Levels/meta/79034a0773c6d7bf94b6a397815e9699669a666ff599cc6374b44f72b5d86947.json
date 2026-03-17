@@ -1,0 +1,12 @@
+{
+  "name": "Heart Attack (Unnerfed)",
+  "creators": "OrangeFruit",
+  "official_difficulty": "7.25",
+  "punter_scale_difficulty_rating": "7.25",
+  "aldr_id": "13",
+  "code_hash": "79034a0773c6d7bf94b6a397815e9699669a666ff599cc6374b44f72b5d86947",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.9"
+  },
+  "notes": "Impossible: true\\nChallenge: true"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Arcadia",
+  "creators": "KarJ5",
+  "official_difficulty": "12.00",
+  "punter_scale_difficulty_rating": "12.00",
+  "aldr_id": "382",
+  "code_hash": "b41b566aceefe5d2ae3e6f6a32956eeafd76b1aa38f8d85315b873e631c26a2d",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.5"
+  },
+  "notes": "Impossible: true"
+}

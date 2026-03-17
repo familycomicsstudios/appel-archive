@@ -1,0 +1,17 @@
+{
+  "name": "Chronophobia",
+  "creators": [
+    "Barretcoder",
+    "taliix",
+    "IHENOOB",
+    "TheGrassyGuys & cwktao15764"
+  ],
+  "official_difficulty": "12.80",
+  "punter_scale_difficulty_rating": "12.80",
+  "aldr_id": "149",
+  "code_hash": "7f36e549e0d4eb11a0a0986aa9908a7998697ad5f8b4ba7b2a6b4176bacf2e59",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.7"
+  },
+  "notes": "Impossible: true"
+}

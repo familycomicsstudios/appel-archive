@@ -1,0 +1,12 @@
+{
+  "name": "Calamity",
+  "creators": "CAKEC0DER",
+  "official_difficulty": "7.25",
+  "punter_scale_difficulty_rating": "7.25",
+  "aldr_id": "18",
+  "code_hash": "022318559c78338b738348ee3b3377bcb06b80db3f7bef1fe77337e9184b3e45",
+  "source": "https://www.youtube.com/watch?v=GSdXlm2DChc",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.5"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "lim f(x)",
+  "creators": "Krackerz",
+  "official_difficulty": "8.90",
+  "punter_scale_difficulty_rating": "8.90",
+  "aldr_id": "203",
+  "code_hash": "51709cab156c322b8ce49d17cafe80779803724e9b8301b84fba8d7efadd37cc",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.5"
+  },
+  "notes": "Impossible: true"
+}

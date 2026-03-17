@@ -1,0 +1,12 @@
+{
+  "name": "Spiked (HARD)",
+  "creators": "Krackerz",
+  "official_difficulty": "6.16",
+  "punter_scale_difficulty_rating": "6.16",
+  "aldr_id": "100",
+  "code_hash": "47245fa579cadd4c99bc880afdda0f2fe26273dac79a52f3edd6e995a36d1819",
+  "source": "https://scratch.mit.edu/projects/933696651",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.7"
+  }
+}

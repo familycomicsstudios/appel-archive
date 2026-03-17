@@ -1,0 +1,12 @@
+{
+  "name": "Appel Tech Gauntlet",
+  "creators": "Themadpunter",
+  "official_difficulty": "5.50",
+  "punter_scale_difficulty_rating": "5.50",
+  "aldr_id": "86",
+  "code_hash": "18a501d8e0b0040ef209b64f91cf36212b34b18fd2e7e0efca591e3c8487045f",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.95"
+  },
+  "notes": "Challenge: true"
+}

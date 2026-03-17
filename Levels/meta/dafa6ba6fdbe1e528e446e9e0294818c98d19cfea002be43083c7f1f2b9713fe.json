@@ -1,0 +1,12 @@
+{
+  "name": "Buffbath",
+  "creators": "OrangeFruit",
+  "official_difficulty": "8.90",
+  "punter_scale_difficulty_rating": "8.90",
+  "aldr_id": "343",
+  "code_hash": "dafa6ba6fdbe1e528e446e9e0294818c98d19cfea002be43083c7f1f2b9713fe",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.5"
+  },
+  "notes": "Impossible: true"
+}

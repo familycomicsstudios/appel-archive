@@ -1,0 +1,11 @@
+{
+  "name": "Wastelands",
+  "creators": "OrangeFruit",
+  "official_difficulty": "1.25",
+  "punter_scale_difficulty_rating": "1.25",
+  "aldr_id": "120",
+  "code_hash": "8a2f3178d50a8ec12eb777ca97578bb38acf6b27d959d641d1ca669212b50a30",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.5"
+  }
+}

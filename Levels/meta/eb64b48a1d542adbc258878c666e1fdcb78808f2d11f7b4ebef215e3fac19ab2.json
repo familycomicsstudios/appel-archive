@@ -1,0 +1,12 @@
+{
+  "name": "Dark Matter",
+  "creators": "T Sata",
+  "official_difficulty": "5.90",
+  "punter_scale_difficulty_rating": "5.90",
+  "aldr_id": "92",
+  "code_hash": "eb64b48a1d542adbc258878c666e1fdcb78808f2d11f7b4ebef215e3fac19ab2",
+  "source": "https://scratch.mit.edu/projects/838780505",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.5"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Sliced (HARD)",
+  "creators": "Krackerz",
+  "official_difficulty": "5.66",
+  "punter_scale_difficulty_rating": "5.66",
+  "aldr_id": "442",
+  "code_hash": "1b1cfdff5c7409d375a8364c5c3fe623197ecef0a2b28be67d14acfdbc8ccf78",
+  "source": "https://scratch.mit.edu/projects/933696651",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.5"
+  }
+}

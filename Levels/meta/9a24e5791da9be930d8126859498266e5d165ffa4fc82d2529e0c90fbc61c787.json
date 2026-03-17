@@ -1,0 +1,12 @@
+{
+  "name": "Erebus",
+  "creators": "Krackerz",
+  "official_difficulty": "5.71",
+  "punter_scale_difficulty_rating": "5.71",
+  "aldr_id": "123",
+  "code_hash": "9a24e5791da9be930d8126859498266e5d165ffa4fc82d2529e0c90fbc61c787",
+  "source": "https://scratch.mit.edu/projects/970869402",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.5"
+  }
+}

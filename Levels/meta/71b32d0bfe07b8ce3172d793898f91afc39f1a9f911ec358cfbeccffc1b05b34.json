@@ -1,0 +1,12 @@
+{
+  "name": "Smashed",
+  "creators": "OrangeFruit",
+  "official_difficulty": "1.40",
+  "punter_scale_difficulty_rating": "1.40",
+  "aldr_id": "270",
+  "code_hash": "71b32d0bfe07b8ce3172d793898f91afc39f1a9f911ec358cfbeccffc1b05b34",
+  "source": "https://scratch.mit.edu/projects/1012016493/",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.5"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Tranquility",
+  "creators": "BiskuitzKrackerz",
+  "official_difficulty": "1.25",
+  "punter_scale_difficulty_rating": "1.25",
+  "aldr_id": "269",
+  "code_hash": "a5663881144abae60bf01dd74cde470f905e661985df43404b99131ca2c6f7dc",
+  "source": "https://scratch.mit.edu/projects/970869402",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.5"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "La Paz",
+  "creators": "co28u",
+  "official_difficulty": "3.35",
+  "punter_scale_difficulty_rating": "3.35",
+  "aldr_id": "453",
+  "code_hash": "2e8de197f61f4ff8400c84c3e41bb639fadd64502320550566bb1d2398401377",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.5"
+  }
+}

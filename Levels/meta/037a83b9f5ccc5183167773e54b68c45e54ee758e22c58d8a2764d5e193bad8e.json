@@ -1,0 +1,13 @@
+{
+  "name": "Radiation",
+  "creators": "MichaelChan",
+  "official_difficulty": "8.20",
+  "punter_scale_difficulty_rating": "8.20",
+  "aldr_id": "6",
+  "code_hash": "037a83b9f5ccc5183167773e54b68c45e54ee758e22c58d8a2764d5e193bad8e",
+  "source": "https://scratch.mit.edu/projects/640673038",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.6"
+  },
+  "video": "https://www.youtube.com/watch?v=JL5XKIMf7ho"
+}

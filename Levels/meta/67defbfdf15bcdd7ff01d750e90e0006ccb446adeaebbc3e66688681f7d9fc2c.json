@@ -1,0 +1,12 @@
+{
+  "name": "Transmitted",
+  "creators": "swskrei",
+  "official_difficulty": "1.75",
+  "punter_scale_difficulty_rating": "1.75",
+  "aldr_id": "303",
+  "code_hash": "67defbfdf15bcdd7ff01d750e90e0006ccb446adeaebbc3e66688681f7d9fc2c",
+  "source": "https://scratch.mit.edu/projects/953344668",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.5"
+  }
+}

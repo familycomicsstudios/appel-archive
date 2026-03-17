@@ -1,0 +1,12 @@
+{
+  "name": "Litejump Sands",
+  "creators": "testerbob31",
+  "official_difficulty": "7.21",
+  "punter_scale_difficulty_rating": "7.21",
+  "aldr_id": "406",
+  "code_hash": "3c5927c484f7d8734e3b216fa76853159749553752155cc70ddd0f04cbdd1792",
+  "source": "/assets/thumbnails/ljs.png",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.7"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Path of Death",
+  "creators": "taliix",
+  "official_difficulty": "7.32",
+  "punter_scale_difficulty_rating": "7.32",
+  "aldr_id": "17",
+  "code_hash": "56d37e779f7d9420312284415f6a5b44fa26412d80b900d94f6608cd519c3af1",
+  "source": "/assets/thumbnails/pod.png",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.5"
+  }
+}

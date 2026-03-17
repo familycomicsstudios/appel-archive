@@ -1,0 +1,12 @@
+{
+  "name": "A Crimson End",
+  "creators": "TheGrassyGuys",
+  "official_difficulty": "8.25",
+  "punter_scale_difficulty_rating": "8.25",
+  "aldr_id": "5",
+  "code_hash": "efbe1178214045c118b6e35e66b957e04c42817f14c575db97cb74c314e2d712",
+  "source": "/assets/thumbnails/ACE.png",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.5"
+  }
+}

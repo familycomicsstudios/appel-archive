@@ -1,0 +1,12 @@
+{
+  "name": "Haystack",
+  "creators": "Themadpunter",
+  "official_difficulty": "4.71",
+  "punter_scale_difficulty_rating": "4.71",
+  "aldr_id": "423",
+  "code_hash": "e7cfa49bd961bf2535d3aba9f64ad39c94baba19b65db84bd8161d3bbde03bf9",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.5"
+  },
+  "notes": "Impossible: true"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Punterphobia",
+  "creators": "Themadputer",
+  "official_difficulty": "5.07",
+  "punter_scale_difficulty_rating": "5.07",
+  "notes": "New version of the level",
+  "aldr_id": "228",
+  "code_hash": "e1e6f304e70d0f7f68dd3ef22805f9cb5080e6dc9ed21e329ed2e50d57023860",
+  "source": "/assets/thumbnails/Punterphobia.png",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.7"
+  }
+}

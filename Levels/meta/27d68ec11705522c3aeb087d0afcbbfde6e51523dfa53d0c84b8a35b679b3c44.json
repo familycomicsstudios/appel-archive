@@ -1,0 +1,13 @@
+{
+  "name": "The Exile",
+  "creators": "OrangeFruit",
+  "official_difficulty": "13.50",
+  "punter_scale_difficulty_rating": "13.50",
+  "aldr_id": "77",
+  "code_hash": "27d68ec11705522c3aeb087d0afcbbfde6e51523dfa53d0c84b8a35b679b3c44",
+  "source": "https://www.youtube.com/watch?v=Iiz0Cz3yEC0",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.45"
+  },
+  "notes": "Impossible: true"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Final Fantasy",
+  "creators": "Themadpunter",
+  "official_difficulty": "3.35",
+  "punter_scale_difficulty_rating": "3.35",
+  "notes": "Level must be played in project",
+  "aldr_id": "84",
+  "code_hash": "031fc64c274af3572515a27b399576c015a271db59100135f9dc29a04cc9bb6b",
+  "source": "https://scratch.mit.edu/projects/1202817056/",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.2"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Limbo",
+  "creators": "Barretcoder",
+  "official_difficulty": "7.26",
+  "punter_scale_difficulty_rating": "7.26",
+  "aldr_id": "208",
+  "code_hash": "d5446cc0f594ee00606b21557c930e9682285525f679cd0b23223d07c957b522",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.5"
+  },
+  "notes": "Impossible: true"
+}

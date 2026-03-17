@@ -1,0 +1,13 @@
+{
+  "name": "Vigilaphobia",
+  "creators": "Themadpunter",
+  "official_difficulty": "6.76",
+  "punter_scale_difficulty_rating": "6.76",
+  "aldr_id": "85",
+  "code_hash": "79fe4c3f8dd138fdcb789b7f50809f576bc2175754751da03e5edd6c6f9ddfb2",
+  "source": "/assets/thumbnails/Vigilaphobia.png",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.65"
+  },
+  "notes": "Impossible: true"
+}

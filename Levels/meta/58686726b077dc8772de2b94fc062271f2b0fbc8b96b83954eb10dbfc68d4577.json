@@ -1,0 +1,12 @@
+{
+  "name": "Dusk's Eve",
+  "creators": "Barretcoder",
+  "official_difficulty": "9.75",
+  "punter_scale_difficulty_rating": "9.75",
+  "aldr_id": "209",
+  "code_hash": "58686726b077dc8772de2b94fc062271f2b0fbc8b96b83954eb10dbfc68d4577",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.5"
+  },
+  "notes": "Impossible: true"
+}

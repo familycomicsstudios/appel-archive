@@ -1,0 +1,12 @@
+{
+  "name": "AEON [preview]",
+  "creators": "TheGrassyGuys",
+  "official_difficulty": "5.25",
+  "punter_scale_difficulty_rating": "5.25",
+  "aldr_id": "347",
+  "code_hash": "5a0d2989c63746b2d10c8ead9a403ab163babd46fecd78ee211cd41cd93f2735",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.5"
+  },
+  "notes": "Impossible: true"
+}

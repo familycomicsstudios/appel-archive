@@ -1,0 +1,12 @@
+{
+  "name": "The Microwave",
+  "creators": "testerbob31 & TurningBack",
+  "official_difficulty": "6.98",
+  "punter_scale_difficulty_rating": "6.98",
+  "aldr_id": "407",
+  "code_hash": "dee7de25ec319d95c078857a7d7e7534feda50df7c256dd2f58b572059f8f529",
+  "source": "[Appelchemy]",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.5"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Brussels Sprouts",
+  "creators": "Testerbob31",
+  "official_difficulty": "6.11",
+  "punter_scale_difficulty_rating": "6.11",
+  "notes": "Remake of Sprouts of Pai",
+  "aldr_id": "357",
+  "code_hash": "af32ec2c27d4e261cb788e6ed26304c6c48bbd11799da9ab2ea6b8c0a41027d0",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.6"
+  }
+}

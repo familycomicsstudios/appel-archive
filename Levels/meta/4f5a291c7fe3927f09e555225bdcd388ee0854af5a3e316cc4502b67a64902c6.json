@@ -1,0 +1,12 @@
+{
+  "name": "Easiest Level in Appel",
+  "creators": "Themadpunter",
+  "official_difficulty": "0.01",
+  "punter_scale_difficulty_rating": "0.01",
+  "notes": "baseline effortlessness",
+  "aldr_id": "394",
+  "code_hash": "4f5a291c7fe3927f09e555225bdcd388ee0854af5a3e316cc4502b67a64902c6",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.5"
+  }
+}

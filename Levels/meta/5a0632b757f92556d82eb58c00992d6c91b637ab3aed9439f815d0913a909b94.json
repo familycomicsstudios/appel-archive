@@ -1,0 +1,12 @@
+{
+  "name": "Epsilon",
+  "creators": "OrangeFruit and cwktao15764",
+  "official_difficulty": "7.10",
+  "punter_scale_difficulty_rating": "7.10",
+  "aldr_id": "10",
+  "code_hash": "5a0632b757f92556d82eb58c00992d6c91b637ab3aed9439f815d0913a909b94",
+  "source": "https://www.youtube.com/watch?v=BQeBDI9pWVY",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.6"
+  }
+}
