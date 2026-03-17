@@ -56,6 +56,113 @@
       margin-top: 1.5rem;
     }
 
+    #metadata-search {
+      margin-top: 2rem;
+      padding-top: 1rem;
+      border-top: 1px solid #ddd;
+    }
+
+    #metadata-search h2 {
+      margin: 0 0 0.3rem 0;
+      font-size: 1.15rem;
+    }
+
+    #metadata-search p {
+      margin: 0 0 0.7rem 0;
+      color: #555;
+      font-size: 0.92rem;
+    }
+
+    .metadata-controls {
+      display: grid;
+      grid-template-columns: 1.4fr 1fr 1fr auto;
+      gap: 0.6rem;
+      align-items: end;
+    }
+
+    .metadata-controls label {
+      margin-bottom: 0.25rem;
+      font-size: 0.9rem;
+    }
+
+    .metadata-controls input,
+    .metadata-controls select {
+      width: 100%;
+      padding: 0.45rem 0.55rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 0.9rem;
+      background: #fff;
+    }
+
+    .metadata-controls button {
+      margin-top: 0;
+      padding: 0.46rem 1.2rem;
+      font-size: 0.92rem;
+      align-self: center;
+    }
+
+    #metadata-search-status {
+      margin-top: 0.65rem;
+      color: #444;
+      font-size: 0.9rem;
+    }
+
+    #metadata-search-results {
+      margin-top: 0.7rem;
+    }
+
+    .action-link {
+      background: none;
+      border: none;
+      color: #0066cc;
+      text-decoration: underline;
+      padding: 0;
+      margin: 0;
+      cursor: pointer;
+      font: inherit;
+    }
+
+    .action-link:hover {
+      color: #0052a3;
+    }
+
+    #field-tools {
+      margin-top: 1rem;
+      padding: 0.8rem;
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      display: none;
+    }
+
+    #field-tools h2 {
+      margin: 0 0 0.7rem 0;
+      font-size: 1rem;
+    }
+
+    .tool-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.7rem;
+    }
+
+    .tool-grid label {
+      margin-bottom: 0.25rem;
+      font-size: 0.9rem;
+    }
+
+    .tool-grid input,
+    .tool-grid select {
+      width: 100%;
+      padding: 0.45rem 0.55rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 0.9rem;
+      font-family: inherit;
+      background: #fff;
+    }
+
     .error {
       color: #c00;
       background: #fff0f0;
@@ -102,11 +209,84 @@
   <button id="search-btn">Search</button>
   <div id="hash-display"></div>
 
+  <section id="metadata-search">
+    <h2>Metadata Search</h2>
+    <p>Search across all archived levels by metadata values.</p>
+    <div class="metadata-controls">
+      <div>
+        <label for="meta-query">Search text</label>
+        <input id="meta-query" type="text" placeholder="e.g. Themadpunter, insane, phobia" />
+      </div>
+      <div>
+        <label for="meta-field">Search field</label>
+        <select id="meta-field">
+          <option value="__all">All fields</option>
+        </select>
+      </div>
+      <div>
+        <label for="meta-sort">Sort results</label>
+        <select id="meta-sort">
+          <option value="name_asc">Name (A→Z)</option>
+          <option value="name_desc">Name (Z→A)</option>
+          <option value="difficulty_asc">Difficulty (low→high)</option>
+          <option value="difficulty_desc">Difficulty (high→low)</option>
+        </select>
+      </div>
+      <button id="meta-search-btn">Search Metadata</button>
+    </div>
+    <div id="metadata-search-status"></div>
+    <div id="metadata-search-results"></div>
+  </section>
+
+  <div id="field-tools">
+    <h2>Field Tools</h2>
+    <div class="tool-grid">
+      <div>
+        <label for="field-search">Search fields</label>
+        <input id="field-search" type="text" placeholder="Search field names or values…" />
+      </div>
+      <div>
+        <label for="field-filter">Filter field</label>
+        <select id="field-filter">
+          <option value="__all">All fields</option>
+        </select>
+      </div>
+      <div>
+        <label for="field-sort">Sort fields</label>
+        <select id="field-sort">
+          <option value="schema">Schema order</option>
+          <option value="name_asc">Field name (A→Z)</option>
+          <option value="name_desc">Field name (Z→A)</option>
+        </select>
+      </div>
+      <div>
+        <label for="field-empties">Empty fields</label>
+        <select id="field-empties">
+          <option value="show">Show empty</option>
+          <option value="hide">Hide empty</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
   <div id="result"></div>
 
   <script>
     let fieldsMap = {};
     let fieldsOrder = [];
+    let currentData = null;
+    let metadataIndex = null;
+
+    const fieldToolsEl = document.getElementById('field-tools');
+    const fieldSearchEl = document.getElementById('field-search');
+    const fieldFilterEl = document.getElementById('field-filter');
+    const fieldSortEl = document.getElementById('field-sort');
+    const fieldEmptiesEl = document.getElementById('field-empties');
+    const metaQueryEl = document.getElementById('meta-query');
+    const metaFieldEl = document.getElementById('meta-field');
+    const metaSortEl = document.getElementById('meta-sort');
+    const metaStatusEl = document.getElementById('metadata-search-status');
+    const metaResultsEl = document.getElementById('metadata-search-results');
 
     async function loadFields() {
       try {
@@ -120,6 +300,41 @@
         }
       } catch (err) {
         console.warn('Failed to load fields.json:', err);
+      }
+
+      metaFieldEl.innerHTML = '';
+      const allOption = document.createElement('option');
+      allOption.value = '__all';
+      allOption.textContent = 'All fields';
+      metaFieldEl.appendChild(allOption);
+
+      fieldsOrder.forEach(key => {
+        const option = document.createElement('option');
+        option.value = key;
+        option.textContent = fieldLabel(key);
+        metaFieldEl.appendChild(option);
+      });
+    }
+
+    async function loadMetadataIndex() {
+      if (metadataIndex) return metadataIndex;
+
+      metaStatusEl.textContent = 'Loading metadata index…';
+      try {
+        const response = await fetch('Levels/meta-index.json');
+        if (!response.ok) {
+          throw new Error('HTTP ' + response.status);
+        }
+        const indexData = await response.json();
+        if (!Array.isArray(indexData)) {
+          throw new Error('Invalid metadata index format');
+        }
+        metadataIndex = indexData;
+        metaStatusEl.textContent = 'Metadata index loaded.';
+        return metadataIndex;
+      } catch (error) {
+        metaStatusEl.textContent = 'Failed to load metadata index: ' + error.message;
+        throw error;
       }
     }
 
@@ -160,6 +375,228 @@
       return ordered.concat(remaining);
     }
 
+    function valueToSearchText(value) {
+      if (value === null || value === undefined) return '';
+      if (typeof value === 'string') return value;
+      if (Array.isArray(value)) return value.join(' ');
+      if (typeof value === 'object') return JSON.stringify(value);
+      return String(value);
+    }
+
+    function isEmptyValue(value) {
+      if (value === null || value === undefined || value === '') return true;
+      if (Array.isArray(value)) return value.length === 0;
+      if (typeof value === 'object') return Object.keys(value).length === 0;
+      return false;
+    }
+
+    function difficultyNumber(data) {
+      const raw = data.punter_scale_difficulty_rating ?? data.official_difficulty;
+      const number = parseFloat(raw);
+      return Number.isFinite(number) ? number : Number.NaN;
+    }
+
+    function metadataSearchText(data, field) {
+      if (field === '__all') {
+        return Object.entries(data)
+          .map(([key, value]) => key + ' ' + valueToSearchText(value))
+          .join(' ')
+          .toLowerCase();
+      }
+      return valueToSearchText(data[field]).toLowerCase();
+    }
+
+    function getVisibleKeys(data) {
+      let keys = sortedKeys(data);
+
+      const filterField = fieldFilterEl.value;
+      if (filterField !== '__all') {
+        keys = keys.filter(key => key === filterField);
+      }
+
+      if (fieldEmptiesEl.value === 'hide') {
+        keys = keys.filter(key => !isEmptyValue(data[key]));
+      }
+
+      const query = fieldSearchEl.value.trim().toLowerCase();
+      if (query) {
+        keys = keys.filter(key => {
+          const label = fieldLabel(key).toLowerCase();
+          const rawKey = key.toLowerCase();
+          const valueText = valueToSearchText(data[key]).toLowerCase();
+          return label.includes(query) || rawKey.includes(query) || valueText.includes(query);
+        });
+      }
+
+      const sortMode = fieldSortEl.value;
+      if (sortMode === 'name_asc') {
+        keys = keys.slice().sort((a, b) => fieldLabel(a).localeCompare(fieldLabel(b)));
+      } else if (sortMode === 'name_desc') {
+        keys = keys.slice().sort((a, b) => fieldLabel(b).localeCompare(fieldLabel(a)));
+      }
+
+      return keys;
+    }
+
+    function renderTable(data) {
+      const resultEl = document.getElementById('result');
+      resultEl.innerHTML = '';
+
+      const keys = getVisibleKeys(data);
+      if (keys.length === 0) {
+        const p = document.createElement('p');
+        p.textContent = 'No fields match the current search/filter settings.';
+        resultEl.appendChild(p);
+        return;
+      }
+
+      const table = document.createElement('table');
+      keys.forEach(key => {
+        const tr = document.createElement('tr');
+        const th = document.createElement('th');
+        th.textContent = fieldLabel(key);
+        const desc = fieldDescription(key);
+        if (desc) th.title = desc;
+        const td = document.createElement('td');
+        td.appendChild(renderValue(data[key]));
+        tr.appendChild(th);
+        tr.appendChild(td);
+        table.appendChild(tr);
+      });
+      resultEl.appendChild(table);
+    }
+
+    function showMetadataResult(data) {
+      currentData = data;
+      updateFieldFilterOptions(data);
+      fieldToolsEl.style.display = '';
+      renderTable(data);
+      const hashEl = document.getElementById('hash-display');
+      if (data.code_hash) {
+        hashEl.textContent = 'Code hash: ' + data.code_hash;
+      }
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    async function searchByMetadata() {
+      metaResultsEl.innerHTML = '';
+
+      let entries;
+      try {
+        entries = await loadMetadataIndex();
+      } catch (_) {
+        return;
+      }
+
+      const query = metaQueryEl.value.trim().toLowerCase();
+      const field = metaFieldEl.value;
+      const sortMode = metaSortEl.value;
+
+      let results = entries.filter(entry => {
+        if (!entry || typeof entry !== 'object') return false;
+        const data = entry.data;
+        if (!data || typeof data !== 'object') return false;
+        if (!query) return true;
+        return metadataSearchText(data, field).includes(query);
+      });
+
+      if (sortMode === 'name_asc' || sortMode === 'name_desc') {
+        const direction = sortMode === 'name_asc' ? 1 : -1;
+        results.sort((a, b) => {
+          const aName = String(a.data?.name ?? '').toLowerCase();
+          const bName = String(b.data?.name ?? '').toLowerCase();
+          return aName.localeCompare(bName) * direction;
+        });
+      } else {
+        const direction = sortMode === 'difficulty_asc' ? 1 : -1;
+        results.sort((a, b) => {
+          const aValue = difficultyNumber(a.data);
+          const bValue = difficultyNumber(b.data);
+          const aNan = Number.isNaN(aValue);
+          const bNan = Number.isNaN(bValue);
+          if (aNan && bNan) return 0;
+          if (aNan) return 1;
+          if (bNan) return -1;
+          return (aValue - bValue) * direction;
+        });
+      }
+
+      metaStatusEl.textContent = 'Found ' + results.length + ' matching level(s).';
+      if (results.length === 0) {
+        return;
+      }
+
+      const table = document.createElement('table');
+      const header = document.createElement('tr');
+      ['Name', 'Creators', 'Difficulty', 'ALDR ID', 'Actions'].forEach(text => {
+        const th = document.createElement('th');
+        th.textContent = text;
+        header.appendChild(th);
+      });
+      table.appendChild(header);
+
+      results.slice(0, 200).forEach(entry => {
+        const data = entry.data || {};
+        const tr = document.createElement('tr');
+
+        const nameCell = document.createElement('td');
+        nameCell.textContent = String(data.name || '—');
+        tr.appendChild(nameCell);
+
+        const creatorsCell = document.createElement('td');
+        creatorsCell.textContent = Array.isArray(data.creators)
+          ? data.creators.join(', ')
+          : String(data.creators || '—');
+        tr.appendChild(creatorsCell);
+
+        const difficultyCell = document.createElement('td');
+        difficultyCell.textContent = String(data.official_difficulty || data.punter_scale_difficulty_rating || '—');
+        tr.appendChild(difficultyCell);
+
+        const aldrCell = document.createElement('td');
+        aldrCell.textContent = String(data.aldr_id || '—');
+        tr.appendChild(aldrCell);
+
+        const actionCell = document.createElement('td');
+        const viewButton = document.createElement('button');
+        viewButton.className = 'action-link';
+        viewButton.textContent = 'View details';
+        viewButton.addEventListener('click', () => showMetadataResult(data));
+        actionCell.appendChild(viewButton);
+        tr.appendChild(actionCell);
+
+        table.appendChild(tr);
+      });
+
+      if (results.length > 200) {
+        const note = document.createElement('p');
+        note.textContent = 'Showing first 200 results. Refine your search for more precise matches.';
+        metaResultsEl.appendChild(note);
+      }
+
+      metaResultsEl.appendChild(table);
+    }
+
+    function updateFieldFilterOptions(data) {
+      const previous = fieldFilterEl.value;
+      const keys = sortedKeys(data);
+
+      fieldFilterEl.innerHTML = '';
+      const allOption = document.createElement('option');
+      allOption.value = '__all';
+      allOption.textContent = 'All fields';
+      fieldFilterEl.appendChild(allOption);
+
+      keys.forEach(key => {
+        const option = document.createElement('option');
+        option.value = key;
+        option.textContent = fieldLabel(key);
+        fieldFilterEl.appendChild(option);
+      });
+
+      fieldFilterEl.value = keys.includes(previous) ? previous : '__all';
+    }
+
     function renderValue(value) {
       if (Array.isArray(value)) {
         if (value.length === 0) return document.createTextNode('—');
@@ -197,6 +634,8 @@
 
       resultEl.innerHTML = '';
       hashEl.textContent = '';
+      fieldToolsEl.style.display = 'none';
+      currentData = null;
 
       if (!code.trim()) {
         resultEl.appendChild(makeError('Please enter a level code.'));
@@ -235,25 +674,28 @@
         return;
       }
 
-      const table = document.createElement('table');
-      sortedKeys(data).forEach(key => {
-        const tr = document.createElement('tr');
-        const th = document.createElement('th');
-        th.textContent = fieldLabel(key);
-        const desc = fieldDescription(key);
-        if (desc) th.title = desc;
-        const td = document.createElement('td');
-        td.appendChild(renderValue(data[key]));
-        tr.appendChild(th);
-        tr.appendChild(td);
-        table.appendChild(tr);
-      });
-      resultEl.appendChild(table);
+      currentData = data;
+      updateFieldFilterOptions(data);
+      fieldToolsEl.style.display = '';
+      renderTable(data);
     }
 
     document.getElementById('search-btn').addEventListener('click', search);
+    document.getElementById('meta-search-btn').addEventListener('click', searchByMetadata);
     document.getElementById('level-code').addEventListener('keydown', e => {
       if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) search();
+    });
+    metaQueryEl.addEventListener('keydown', e => {
+      if (e.key === 'Enter') searchByMetadata();
+    });
+
+    [fieldSearchEl, fieldFilterEl, fieldSortEl, fieldEmptiesEl].forEach(el => {
+      el.addEventListener('input', () => {
+        if (currentData) renderTable(currentData);
+      });
+      el.addEventListener('change', () => {
+        if (currentData) renderTable(currentData);
+      });
     });
 
     loadFields();
