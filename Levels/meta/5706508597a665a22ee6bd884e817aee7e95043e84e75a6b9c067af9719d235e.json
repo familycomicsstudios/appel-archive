@@ -1,0 +1,14 @@
+{
+  "name": "Tetrahedron",
+  "creators": "co28u",
+  "official_difficulty": "9.56",
+  "punter_scale_difficulty_rating": "9.56",
+  "aldr_id": "454",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.4"
+  },
+  "source": "https://scratch.mit.edu/projects/1237039780/",
+  "video": "https://www.youtube.com/watch?v=GxRCuysMaYg&start=157",
+  "notes": "Impossible: true",
+  "code_hash": "5706508597a665a22ee6bd884e817aee7e95043e84e75a6b9c067af9719d235e"
+}

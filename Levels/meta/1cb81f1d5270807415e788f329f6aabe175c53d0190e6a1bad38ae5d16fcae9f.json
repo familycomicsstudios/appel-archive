@@ -1,0 +1,12 @@
+{
+  "name": "Sagittarius A",
+  "creators": "Themadpunter",
+  "official_difficulty": "12.00",
+  "punter_scale_difficulty_rating": "12.00",
+  "aldr_id": "460",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.1"
+  },
+  "notes": "Impossible: true\nChallenge: true",
+  "code_hash": "1cb81f1d5270807415e788f329f6aabe175c53d0190e6a1bad38ae5d16fcae9f"
+}

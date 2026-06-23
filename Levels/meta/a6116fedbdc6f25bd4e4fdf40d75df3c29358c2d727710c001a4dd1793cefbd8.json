@@ -1,0 +1,12 @@
+{
+  "name": "Malice",
+  "creators": "cwktao15764",
+  "official_difficulty": "13.80",
+  "punter_scale_difficulty_rating": "13.80",
+  "aldr_id": "461",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.5"
+  },
+  "notes": "Impossible: true",
+  "code_hash": "a6116fedbdc6f25bd4e4fdf40d75df3c29358c2d727710c001a4dd1793cefbd8"
+}

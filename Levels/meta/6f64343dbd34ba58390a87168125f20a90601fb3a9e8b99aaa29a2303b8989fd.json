@@ -1,0 +1,12 @@
+{
+  "name": "Ikea",
+  "creators": "Themadpunter",
+  "official_difficulty": "2.22",
+  "punter_scale_difficulty_rating": "2.22",
+  "aldr_id": "459",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.3"
+  },
+  "source": "https://scratch.mit.edu/projects/1272866414/",
+  "code_hash": "6f64343dbd34ba58390a87168125f20a90601fb3a9e8b99aaa29a2303b8989fd"
+}

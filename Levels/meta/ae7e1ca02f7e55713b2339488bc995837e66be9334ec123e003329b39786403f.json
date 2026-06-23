@@ -1,0 +1,12 @@
+{
+  "name": "Abhorrent Atrocities C-Side",
+  "creators": "pi314",
+  "official_difficulty": "12.45",
+  "punter_scale_difficulty_rating": "12.45",
+  "aldr_id": "462",
+  "other_difficulty_system_ratings": {
+    "skills_balance": "0.5"
+  },
+  "notes": "Impossible: true",
+  "code_hash": "ae7e1ca02f7e55713b2339488bc995837e66be9334ec123e003329b39786403f"
+}
