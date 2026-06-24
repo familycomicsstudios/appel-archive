@@ -1,12 +1,18 @@
 {
   "name": "Cynessa",
   "creators": "OrangeFruit",
-  "official_difficulty": "3.75",
+  "official_difficulty": "7💥",
   "punter_scale_difficulty_rating": "3.75",
   "aldr_id": "139",
   "code_hash": "700efe484db43b8739d42e6e1af7bf6cb04505607abc88b7e7c52da410764997",
   "source": "https://www.youtube.com/watch?v=dm2Zy3hV0YA",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.5"
-  }
+    "skills_balance": "0.5",
+    "ahll_rank": "220"
+  },
+  "michael_chan_extended_difficulty_rating": "7💥",
+  "ahll_difficulty": "7💥",
+  "ahll_id": "475",
+  "video": "https://www.youtube.com/watch?v=dm2Zy3hV0YA",
+  "notes": "Verifier/First Victor: OrangeFruit\nFastest Time: cwktao - 9.3"
 }

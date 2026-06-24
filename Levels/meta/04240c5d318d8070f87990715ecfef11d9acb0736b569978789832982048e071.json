@@ -1,12 +1,17 @@
 {
   "name": "Spring Breezes",
   "creators": "swskrei",
-  "official_difficulty": "1.55",
+  "official_difficulty": "2💥",
   "punter_scale_difficulty_rating": "1.55",
   "aldr_id": "147",
   "code_hash": "04240c5d318d8070f87990715ecfef11d9acb0736b569978789832982048e071",
   "source": "https://scratch.mit.edu/projects/953344668",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.5"
-  }
+    "skills_balance": "0.5",
+    "ahll_rank": "520"
+  },
+  "michael_chan_extended_difficulty_rating": "2💥",
+  "ahll_difficulty": "2💥",
+  "ahll_id": "312",
+  "notes": "Verifier/First Victor: swskrei?\nFastest Time: Krackerz - 16.5"
 }

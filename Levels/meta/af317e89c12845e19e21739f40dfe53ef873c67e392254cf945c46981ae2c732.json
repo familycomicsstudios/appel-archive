@@ -1,13 +1,18 @@
 {
   "name": "Rapid Rebound",
   "creators": "OrangeFruit",
-  "official_difficulty": "5.17",
+  "official_difficulty": "1💣",
   "punter_scale_difficulty_rating": "5.17",
   "aldr_id": "223",
   "code_hash": "af317e89c12845e19e21739f40dfe53ef873c67e392254cf945c46981ae2c732",
   "source": "https://scratch.mit.edu/projects/896453062",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.5"
+    "skills_balance": "0.5",
+    "ahll_rank": "152"
   },
-  "video": "https://www.youtube.com/watch?v=nIAITIAIdS8"
+  "video": "https://www.youtube.com/watch?v=nIAITIAIdS8",
+  "michael_chan_extended_difficulty_rating": "1💣",
+  "ahll_difficulty": "Low 1💣",
+  "ahll_id": "82",
+  "notes": "unlock doors\nVerifier/First Victor: Krackerz?\nFastest Time: Krackerz - 12.7?"
 }

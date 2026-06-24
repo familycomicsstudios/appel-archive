@@ -1,13 +1,18 @@
 {
   "name": "Radiated",
   "creators": "OrangeFruit",
-  "official_difficulty": "2.70",
+  "official_difficulty": "4💥",
   "punter_scale_difficulty_rating": "2.70",
   "aldr_id": "61",
   "code_hash": "16c89d1b946c89f6e5946dab2b581ca453ee8f23a827a6837baf88362305b8dd",
   "source": "https://scratch.mit.edu/projects/896453062",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.6"
+    "skills_balance": "0.6",
+    "ahll_rank": "408"
   },
-  "video": "https://www.youtube.com/watch?v=q7VeZxc3rBk"
+  "video": "https://www.youtube.com/watch?v=q7VeZxc3rBk",
+  "michael_chan_extended_difficulty_rating": "4💥",
+  "ahll_difficulty": "4💥",
+  "ahll_id": "239",
+  "notes": "🧀\nFastest Time: Krackerz - 17.2?"
 }

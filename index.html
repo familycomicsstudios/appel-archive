@@ -528,7 +528,7 @@
 
       const table = document.createElement('table');
       const header = document.createElement('tr');
-      ['Name', 'Creators', 'Difficulty', 'ALDR ID', 'Actions'].forEach(text => {
+      ['Name', 'Creators', 'Difficulty', 'ALDR / AHLL ID', 'Actions'].forEach(text => {
         const th = document.createElement('th');
         th.textContent = text;
         header.appendChild(th);
@@ -553,9 +553,9 @@
         difficultyCell.textContent = String(data.official_difficulty || data.punter_scale_difficulty_rating || '—');
         tr.appendChild(difficultyCell);
 
-        const aldrCell = document.createElement('td');
-        aldrCell.textContent = String(data.aldr_id || '—');
-        tr.appendChild(aldrCell);
+        const idCell = document.createElement('td');
+        idCell.textContent = String(data.aldr_id || data.ahll_id || '—');
+        tr.appendChild(idCell);
 
         const actionCell = document.createElement('td');
         const viewButton = document.createElement('button');

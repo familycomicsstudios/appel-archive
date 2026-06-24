@@ -1,12 +1,18 @@
 {
   "name": "Epsilon",
   "creators": "OrangeFruit and cwktao15764",
-  "official_difficulty": "7.10",
+  "official_difficulty": "2💣",
   "punter_scale_difficulty_rating": "7.10",
   "aldr_id": "10",
   "code_hash": "5a0632b757f92556d82eb58c00992d6c91b637ab3aed9439f815d0913a909b94",
   "source": "https://www.youtube.com/watch?v=BQeBDI9pWVY",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.6"
-  }
+    "skills_balance": "0.6",
+    "ahll_rank": "31"
+  },
+  "michael_chan_extended_difficulty_rating": "2💣",
+  "ahll_difficulty": "High 2💣",
+  "ahll_id": "474",
+  "video": "https://www.youtube.com/watch?v=BQeBDI9pWVY",
+  "notes": "Verifier/First Victor: OrangeFruit*\nFastest Time: Krackerz - 57:06.0"
 }

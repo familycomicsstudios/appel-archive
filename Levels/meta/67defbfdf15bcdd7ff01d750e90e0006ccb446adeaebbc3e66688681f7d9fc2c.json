@@ -1,12 +1,17 @@
 {
   "name": "Transmitted",
   "creators": "swskrei",
-  "official_difficulty": "1.75",
+  "official_difficulty": "3💥",
   "punter_scale_difficulty_rating": "1.75",
   "aldr_id": "303",
   "code_hash": "67defbfdf15bcdd7ff01d750e90e0006ccb446adeaebbc3e66688681f7d9fc2c",
   "source": "https://scratch.mit.edu/projects/953344668",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.5"
-  }
+    "skills_balance": "0.5",
+    "ahll_rank": "578"
+  },
+  "michael_chan_extended_difficulty_rating": "5⚡",
+  "ahll_difficulty": "5⚡",
+  "ahll_id": "353",
+  "notes": "Verifier/First Victor: swskrei?\nFastest Time: Any: BringUpYourPost, Krackerz, pocogamer, Akuretaki, CAKEC0DER, grnts, taliix, TheGoldSpottedPanther, LionCoder10, Jaypin88 - 0.8"
 }

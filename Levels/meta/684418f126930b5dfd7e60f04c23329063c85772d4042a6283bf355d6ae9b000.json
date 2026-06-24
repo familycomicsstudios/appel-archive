@@ -1,12 +1,17 @@
 {
   "name": "20 Litejump Challenge",
   "creators": "taliix",
-  "official_difficulty": "5.85",
+  "official_difficulty": "(6💥)",
   "punter_scale_difficulty_rating": "5.85",
   "aldr_id": "32",
   "code_hash": "684418f126930b5dfd7e60f04c23329063c85772d4042a6283bf355d6ae9b000",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.95"
+    "skills_balance": "0.95",
+    "ahll_rank": "92"
   },
-  "notes": "Challenge: true"
+  "notes": "Verifier/First Victor: Krackerz\nFastest Time: Krackerz - 32.8",
+  "michael_chan_extended_difficulty_rating": "1💣",
+  "ahll_difficulty": "Mid 1💣",
+  "ahll_id": "414",
+  "source": "Forum - 8173289"
 }

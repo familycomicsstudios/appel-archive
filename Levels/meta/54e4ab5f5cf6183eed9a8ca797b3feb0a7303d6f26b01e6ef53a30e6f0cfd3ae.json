@@ -1,13 +1,18 @@
 {
   "name": "Lunar Abyss [OLD]",
   "creators": "OrangeFruit",
-  "official_difficulty": "5.35",
+  "official_difficulty": "1💣",
   "punter_scale_difficulty_rating": "5.35",
-  "notes": "based af level",
+  "notes": "Old version - level code taken from a remix\nVerifier/First Victor: Krackerz\nFastest Time: Krackerz - 28.2?",
   "aldr_id": "38",
   "code_hash": "54e4ab5f5cf6183eed9a8ca797b3feb0a7303d6f26b01e6ef53a30e6f0cfd3ae",
   "source": "https://www.youtube.com/watch?v=MlCONBWpqjo",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.75"
-  }
+    "skills_balance": "0.75",
+    "ahll_rank": "158"
+  },
+  "michael_chan_extended_difficulty_rating": "1💣",
+  "ahll_difficulty": "Low 1💣",
+  "ahll_id": "91",
+  "video": "https://www.youtube.com/watch?v=MlCONBWpqjo"
 }

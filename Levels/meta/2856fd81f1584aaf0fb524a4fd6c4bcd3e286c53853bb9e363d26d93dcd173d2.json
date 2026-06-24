@@ -1,11 +1,17 @@
 {
   "name": "Almalitphobia",
   "creators": "Barretcoder",
-  "official_difficulty": "3.22",
+  "official_difficulty": "-",
   "punter_scale_difficulty_rating": "3.22",
   "aldr_id": "431",
   "code_hash": "2856fd81f1584aaf0fb524a4fd6c4bcd3e286c53853bb9e363d26d93dcd173d2",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.5"
-  }
+    "skills_balance": "0.5",
+    "ahll_rank": "422"
+  },
+  "michael_chan_extended_difficulty_rating": "3💥",
+  "ahll_difficulty": "3💥",
+  "ahll_id": "166",
+  "source": "Custome Level: Almalitphobia",
+  "notes": "project name is not mispelled\nVerifier/First Victor: Barretcoder\nFastest Time: OrangeFruit - 5.7"
 }

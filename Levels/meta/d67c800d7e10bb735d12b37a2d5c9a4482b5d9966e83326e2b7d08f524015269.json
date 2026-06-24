@@ -1,14 +1,18 @@
 {
   "name": "Worm Swarm",
   "creators": "OrangeFruit & Krackerz",
-  "official_difficulty": "5.70",
+  "official_difficulty": "1💣",
   "punter_scale_difficulty_rating": "5.70",
-  "notes": "https://turbowarp.org/1057768495/fullscreen for editor, otherwise play in project",
+  "notes": "This level uses unorthodox tiles, please use the ArA Editor to be able to view it in the editor\nVerifier/First Victor: LionCoder10",
   "aldr_id": "124",
   "code_hash": "d67c800d7e10bb735d12b37a2d5c9a4482b5d9966e83326e2b7d08f524015269",
   "source": "https://scratch.mit.edu/projects/1052441195",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.5"
+    "skills_balance": "0.5",
+    "ahll_rank": "100"
   },
-  "video": "https://www.youtube.com/watch?v=tU6AR-g1OVQ"
+  "video": "https://www.youtube.com/watch?v=tU6AR-g1OVQ",
+  "michael_chan_extended_difficulty_rating": "1💣",
+  "ahll_difficulty": "Mid 1💣",
+  "ahll_id": "47"
 }

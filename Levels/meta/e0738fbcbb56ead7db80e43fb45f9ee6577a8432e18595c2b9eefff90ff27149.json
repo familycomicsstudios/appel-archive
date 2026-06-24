@@ -1,12 +1,16 @@
 {
   "name": "Prismatic Pathways C-Side",
   "creators": "fireball9746",
-  "official_difficulty": "9.10",
+  "official_difficulty": "4💣",
   "punter_scale_difficulty_rating": "9.10",
   "aldr_id": "355",
   "code_hash": "e0738fbcbb56ead7db80e43fb45f9ee6577a8432e18595c2b9eefff90ff27149",
   "source": "https://youtu.be/m-RKpZ2jWJE",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.4"
-  }
+    "skills_balance": "0.4",
+    "ahll_rank": "6"
+  },
+  "michael_chan_extended_difficulty_rating": "4💣",
+  "ahll_id": "575",
+  "notes": "grassy jam submission btw\nVerifier/First Victor: fireball9746"
 }

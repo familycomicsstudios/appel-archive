@@ -1,0 +1,14 @@
+{
+  "name": "Micro Resistance (MR)",
+  "creators": "Sup#2.0",
+  "official_difficulty": "-",
+  "michael_chan_extended_difficulty_rating": "4💥",
+  "ahll_difficulty": "4💥",
+  "ahll_id": "226",
+  "other_difficulty_system_ratings": {
+    "ahll_rank": "385"
+  },
+  "source": "Custom Appel Levels",
+  "notes": "Not available in project - level code can be found here https://github.com/Sup2point0/Assort/tree/origin/Scratch/Appel\nVerifier/First Victor: Sup#2.0",
+  "code_hash": "fa4e6272206f6c2c634b44e7b4281e60561f9a1ffd3e58208f31d9408af30910"
+}

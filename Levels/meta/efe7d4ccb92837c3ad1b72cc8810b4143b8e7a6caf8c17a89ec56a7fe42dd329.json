@@ -1,0 +1,15 @@
+{
+  "name": "Arcturus",
+  "creators": "OrangeFruit & BiskuitzKrackerz",
+  "official_difficulty": "8💥",
+  "michael_chan_extended_difficulty_rating": "8💥",
+  "ahll_difficulty": "8💥",
+  "ahll_id": "114",
+  "other_difficulty_system_ratings": {
+    "ahll_rank": "196"
+  },
+  "source": "Arduous Appel",
+  "video": "https://www.youtube.com/watch?v=wQBbdlu5Xh8",
+  "notes": "This level uses unorthodox tiles, please use the ArA Editor to be able to view it in the editor",
+  "code_hash": "efe7d4ccb92837c3ad1b72cc8810b4143b8e7a6caf8c17a89ec56a7fe42dd329"
+}

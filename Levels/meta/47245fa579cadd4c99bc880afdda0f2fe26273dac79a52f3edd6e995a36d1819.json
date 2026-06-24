@@ -1,12 +1,17 @@
 {
   "name": "Spiked (HARD)",
   "creators": "Krackerz",
-  "official_difficulty": "6.16",
+  "official_difficulty": "2💣",
   "punter_scale_difficulty_rating": "6.16",
   "aldr_id": "100",
   "code_hash": "47245fa579cadd4c99bc880afdda0f2fe26273dac79a52f3edd6e995a36d1819",
   "source": "https://scratch.mit.edu/projects/933696651",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.7"
-  }
+    "skills_balance": "0.7",
+    "ahll_rank": "62"
+  },
+  "michael_chan_extended_difficulty_rating": "2💣",
+  "ahll_difficulty": "Low 2💣",
+  "ahll_id": "28",
+  "notes": "Verifier/First Victor: Krackerz"
 }

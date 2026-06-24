@@ -1,0 +1,15 @@
+{
+  "name": "Cataclysm",
+  "creators": "OrangeFruit & BiskuitzKrackerz",
+  "official_difficulty": "6💥",
+  "michael_chan_extended_difficulty_rating": "6💥",
+  "ahll_difficulty": "6💥",
+  "ahll_id": "129",
+  "other_difficulty_system_ratings": {
+    "ahll_rank": "240"
+  },
+  "source": "Arduous Appel",
+  "video": "https://www.youtube.com/watch?v=SV-LZuh1-tM",
+  "notes": "This level uses unorthodox tiles, please use the ArA Editor to be able to view it in the editor",
+  "code_hash": "f1a0fc0c8d03fc1dd1192f54ed5e7aeaa2279cdb1e4fd33dfd14fc33b7a8bdb4"
+}

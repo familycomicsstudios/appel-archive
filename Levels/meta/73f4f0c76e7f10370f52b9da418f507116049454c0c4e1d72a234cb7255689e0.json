@@ -1,12 +1,18 @@
 {
   "name": "Have A Nice Trip",
   "creators": "MichaelChan",
-  "official_difficulty": "6.20",
+  "official_difficulty": "2💣",
   "punter_scale_difficulty_rating": "6.20",
   "aldr_id": "99",
   "code_hash": "73f4f0c76e7f10370f52b9da418f507116049454c0c4e1d72a234cb7255689e0",
   "source": "https://www.youtube.com/watch?v=-yEr6BfLC2o",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.4"
-  }
+    "skills_balance": "0.4",
+    "ahll_rank": "61"
+  },
+  "michael_chan_extended_difficulty_rating": "2💣",
+  "ahll_difficulty": "Low 2💣",
+  "ahll_id": "27",
+  "video": "https://www.youtube.com/watch?v=-yEr6BfLC2o",
+  "notes": "Verifier/First Victor: Michael Chan?\nFastest Time: Michael Chan, Centyme, Krackerz - 6.3"
 }

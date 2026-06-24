@@ -4,14 +4,19 @@
     "testerbob31",
     "chillbaby123",
     "TurningBack",
-    "& _think_a_lot_"
+    "& _think_a_lot_",
+    "turningback"
   ],
-  "official_difficulty": "7.33",
+  "official_difficulty": "2💣",
   "punter_scale_difficulty_rating": "7.33",
   "aldr_id": "360",
   "code_hash": "944522d60c0767c5bf22a364f2c00caa58135473c5c148d0aa80b04f55935fc3",
   "source": "https://scratch.mit.edu/projects/1274620935",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.5"
-  }
+    "skills_balance": "0.5",
+    "ahll_rank": "27"
+  },
+  "michael_chan_extended_difficulty_rating": "2💣",
+  "ahll_id": "580",
+  "notes": "Verifier/First Victor: testerbob31"
 }

@@ -1,12 +1,18 @@
 {
   "name": "Poison Gardens",
   "creators": "MichaelChan",
-  "official_difficulty": "2.75",
+  "official_difficulty": "-",
   "punter_scale_difficulty_rating": "2.75",
   "aldr_id": "60",
   "code_hash": "50f0b9cb2162ed018cf6ad1fc1b0f9fa118f364a33f66187fea24f434d41c19f",
   "source": "https://www.youtube.com/watch?v=VZpTcY9SPOw",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.4"
-  }
+    "skills_balance": "0.4",
+    "ahll_rank": "401"
+  },
+  "michael_chan_extended_difficulty_rating": "4💥",
+  "ahll_difficulty": "4💥",
+  "ahll_id": "235",
+  "video": "https://www.youtube.com/watch?v=VZpTcY9SPOw",
+  "notes": "Verifier/First Victor: Michael Chan"
 }

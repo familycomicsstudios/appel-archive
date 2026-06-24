@@ -1,12 +1,18 @@
 {
   "name": "Calamity",
   "creators": "CAKEC0DER",
-  "official_difficulty": "7.25",
+  "official_difficulty": "2💣",
   "punter_scale_difficulty_rating": "7.25",
   "aldr_id": "18",
   "code_hash": "022318559c78338b738348ee3b3377bcb06b80db3f7bef1fe77337e9184b3e45",
   "source": "https://www.youtube.com/watch?v=GSdXlm2DChc",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.5"
-  }
+    "skills_balance": "0.5",
+    "ahll_rank": "44"
+  },
+  "michael_chan_extended_difficulty_rating": "2💣",
+  "ahll_difficulty": "Low 2💣",
+  "ahll_id": "11",
+  "video": "https://www.youtube.com/watch?v=GSdXlm2DChc",
+  "notes": "Verifier/First Victor: Krackerz\nFastest Time: Krackerz - 13.5"
 }

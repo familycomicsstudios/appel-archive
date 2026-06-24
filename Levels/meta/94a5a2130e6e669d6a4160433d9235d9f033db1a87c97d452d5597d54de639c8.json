@@ -1,12 +1,17 @@
 {
   "name": "Blooming",
   "creators": "swskrei",
-  "official_difficulty": "4.65",
+  "official_difficulty": "1💣",
   "punter_scale_difficulty_rating": "4.65",
   "aldr_id": "39",
   "code_hash": "94a5a2130e6e669d6a4160433d9235d9f033db1a87c97d452d5597d54de639c8",
   "source": "https://scratch.mit.edu/projects/953344668",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.4"
-  }
+    "skills_balance": "0.4",
+    "ahll_rank": "195"
+  },
+  "michael_chan_extended_difficulty_rating": "8💥",
+  "ahll_difficulty": "8💥",
+  "ahll_id": "93",
+  "notes": "Verifier/First Victor: swskrei?\nFastest Time: LionCoder10 - 12.4"
 }

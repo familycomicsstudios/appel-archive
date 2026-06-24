@@ -1,11 +1,17 @@
 {
   "name": "Overgrowth",
   "creators": "taliix",
-  "official_difficulty": "6.19",
+  "official_difficulty": "1💣",
   "punter_scale_difficulty_rating": "6.19",
   "aldr_id": "364",
   "code_hash": "18a857d801c633d2e39bde50f1c987437076ce444de219059b951cd01dc7de3c",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.5"
-  }
+    "skills_balance": "0.5",
+    "ahll_rank": "67"
+  },
+  "michael_chan_extended_difficulty_rating": "1💣",
+  "ahll_difficulty": "High 1💣",
+  "ahll_id": "559",
+  "source": "Forum - 8468435",
+  "notes": "Verifier/First Victor: Krackerz\nFastest Time: Krackerz - 40:19.7"
 }

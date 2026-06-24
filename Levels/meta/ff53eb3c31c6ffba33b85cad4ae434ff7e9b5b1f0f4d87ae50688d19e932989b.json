@@ -1,12 +1,17 @@
 {
   "name": "Pyroclysm Purgatory",
   "creators": "OrangeFruit",
-  "official_difficulty": "3.75",
+  "official_difficulty": "7💥",
   "punter_scale_difficulty_rating": "3.75",
   "aldr_id": "42",
   "code_hash": "ff53eb3c31c6ffba33b85cad4ae434ff7e9b5b1f0f4d87ae50688d19e932989b",
   "source": "https://scratch.mit.edu/projects/896453062",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.5"
-  }
+    "skills_balance": "0.5",
+    "ahll_rank": "209"
+  },
+  "michael_chan_extended_difficulty_rating": "7💥",
+  "ahll_difficulty": "7💥",
+  "ahll_id": "416",
+  "notes": "Verifier/First Victor: Krackerz"
 }

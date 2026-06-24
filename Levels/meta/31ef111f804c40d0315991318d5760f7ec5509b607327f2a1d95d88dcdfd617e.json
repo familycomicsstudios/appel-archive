@@ -1,11 +1,16 @@
 {
   "name": "Degraminephobia",
   "creators": "Themadpunter",
-  "official_difficulty": "4.34",
+  "official_difficulty": "5💥",
   "punter_scale_difficulty_rating": "4.34",
   "aldr_id": "41",
   "code_hash": "31ef111f804c40d0315991318d5760f7ec5509b607327f2a1d95d88dcdfd617e",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.7"
-  }
+    "skills_balance": "0.7",
+    "ahll_rank": "207"
+  },
+  "michael_chan_extended_difficulty_rating": "7💥",
+  "ahll_difficulty": "7💥",
+  "ahll_id": "443",
+  "notes": "-\nVerifier/First Victor: cwktao15764\nFastest Time: cwktao - 2:39.3"
 }

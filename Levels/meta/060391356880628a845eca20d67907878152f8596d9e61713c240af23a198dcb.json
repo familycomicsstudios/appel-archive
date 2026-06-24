@@ -1,13 +1,18 @@
 {
   "name": "Spikefall",
   "creators": "OrangeFruit",
-  "official_difficulty": "6.04",
+  "official_difficulty": "1💣",
   "punter_scale_difficulty_rating": "6.04",
   "aldr_id": "108",
   "code_hash": "060391356880628a845eca20d67907878152f8596d9e61713c240af23a198dcb",
   "source": "https://scratch.mit.edu/projects/896453062",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.5"
+    "skills_balance": "0.5",
+    "ahll_rank": "81"
   },
-  "video": "https://www.youtube.com/watch?v=qmLIXDPkM2k"
+  "video": "https://www.youtube.com/watch?v=qmLIXDPkM2k",
+  "michael_chan_extended_difficulty_rating": "1💣",
+  "ahll_difficulty": "Mid 1💣",
+  "ahll_id": "38",
+  "notes": "Verifier/First Victor: Krackerz\nFastest Time: Krackerz - 13.4?"
 }

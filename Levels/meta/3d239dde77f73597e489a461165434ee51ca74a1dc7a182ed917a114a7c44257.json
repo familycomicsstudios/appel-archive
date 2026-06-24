@@ -6,11 +6,17 @@
     "TesterBob31",
     "& chillbaby123"
   ],
-  "official_difficulty": "5.27",
+  "official_difficulty": "1💣",
   "punter_scale_difficulty_rating": "5.27",
   "aldr_id": "134",
   "code_hash": "3d239dde77f73597e489a461165434ee51ca74a1dc7a182ed917a114a7c44257",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.5"
-  }
+    "skills_balance": "0.5",
+    "ahll_rank": "138"
+  },
+  "michael_chan_extended_difficulty_rating": "1💣",
+  "ahll_difficulty": "Low 1💣",
+  "ahll_id": "385",
+  "source": "DieVine garden - an appel megacollab",
+  "notes": "inspo from the Panga level\nVerifier/First Victor: KarJ5"
 }

@@ -1,12 +1,17 @@
 {
   "name": "Double Hockeysticks",
   "creators": "scheeepchit_remix",
-  "official_difficulty": "5.36",
+  "official_difficulty": "- (Xtreme ScP)",
   "punter_scale_difficulty_rating": "5.36",
   "aldr_id": "427",
   "code_hash": "a4b3d97ffd91a7206ccd2f863549d732506e8701c3d530c2ff15fe94d67885c3",
   "source": "https://scratch.mit.edu/projects/655134972",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.5"
-  }
+    "skills_balance": "0.5",
+    "ahll_rank": "137"
+  },
+  "michael_chan_extended_difficulty_rating": "1💣",
+  "ahll_difficulty": "Low 1💣",
+  "ahll_id": "71",
+  "notes": "Verifier/First Victor: cwktao15764?"
 }

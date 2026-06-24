@@ -1,11 +1,18 @@
 {
   "name": "Factory Core",
   "creators": "Enter Game",
-  "official_difficulty": "6.60",
+  "official_difficulty": "1💣",
   "punter_scale_difficulty_rating": "6.60",
   "aldr_id": "318",
   "code_hash": "8bf80b8f2832760a13d962cad3f2d17df0e917a70fce2d857ba5ea73c5e51579",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.5"
-  }
+    "skills_balance": "0.5",
+    "ahll_rank": "52"
+  },
+  "michael_chan_extended_difficulty_rating": "2💣",
+  "ahll_difficulty": "Low 2💣",
+  "ahll_id": "513",
+  "source": "[Appel Ascension]",
+  "video": "https://www.youtube.com/watch?v=2hdtYZqlrIo",
+  "notes": "Verifier/First Victor: Enter Game"
 }

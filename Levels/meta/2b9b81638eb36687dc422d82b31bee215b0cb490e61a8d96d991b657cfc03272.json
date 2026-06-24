@@ -4,11 +4,17 @@
     "KarJ5",
     "cwktao15764 & taliix"
   ],
-  "official_difficulty": "3.95",
+  "official_difficulty": "7💥",
   "punter_scale_difficulty_rating": "3.95",
   "aldr_id": "237",
   "code_hash": "2b9b81638eb36687dc422d82b31bee215b0cb490e61a8d96d991b657cfc03272",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.5"
-  }
+    "skills_balance": "0.5",
+    "ahll_rank": "208"
+  },
+  "michael_chan_extended_difficulty_rating": "7💥",
+  "ahll_difficulty": "7💥",
+  "ahll_id": "485",
+  "source": "Cave of the Artifact - an Appel collab",
+  "notes": "Verifier/First Victor: cwktao15764?\nFastest Time: Lioncoder - 4:08.?"
 }

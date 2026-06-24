@@ -1,13 +1,18 @@
 {
   "name": "Appelimbo",
   "creators": "OrangeFruit & Krackerz",
-  "official_difficulty": "5.73",
+  "official_difficulty": "1💣",
   "punter_scale_difficulty_rating": "5.73",
   "aldr_id": "121",
   "code_hash": "d6b0f70a349e8111187fc4c75e210b7caadbdb208b045f02623b98f7d637a4d4",
   "source": "https://scratch.mit.edu/projects/1052441195",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.5"
+    "skills_balance": "0.5",
+    "ahll_rank": "96"
   },
-  "video": "https://www.youtube.com/watch?v=dA6KyqXilE8"
+  "video": "https://www.youtube.com/watch?v=dA6KyqXilE8",
+  "michael_chan_extended_difficulty_rating": "1💣",
+  "ahll_difficulty": "Mid 1💣",
+  "ahll_id": "45",
+  "notes": "This level uses unorthodox tiles, please use the ArA Editor to be able to view it in the editor\nVerifier/First Victor: 3i5jfr9enr"
 }

@@ -1,13 +1,18 @@
 {
   "name": "Sawvalanche",
   "creators": "OrangeFruit",
-  "official_difficulty": "5.67",
+  "official_difficulty": "1💣",
   "punter_scale_difficulty_rating": "5.67",
   "aldr_id": "421",
   "code_hash": "8b6c59130e1094fb04809fd23a0468f114ca75f708b57a5291f4dff6493eb6dc",
   "source": "https://scratch.mit.edu/projects/896453062",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.5"
+    "skills_balance": "0.5",
+    "ahll_rank": "124"
   },
-  "video": "https://www.youtube.com/watch?v=2svG-zADM8A"
+  "video": "https://www.youtube.com/watch?v=2svG-zADM8A",
+  "michael_chan_extended_difficulty_rating": "1💣",
+  "ahll_difficulty": "Low 1💣",
+  "ahll_id": "42",
+  "notes": "Verifier/First Victor: Krackerz\nFastest Time: OrangeFruit - 2:23.0"
 }

@@ -1,12 +1,17 @@
 {
   "name": "Unbalanced (HARD)",
   "creators": "Krackerz",
-  "official_difficulty": "5.64",
+  "official_difficulty": "1💣",
   "punter_scale_difficulty_rating": "5.64",
   "aldr_id": "438",
   "code_hash": "eeea213cd80ea43e0d405d9e0f1822facf1837fce74be9c6e74cf2b13f4bb02f",
   "source": "https://scratch.mit.edu/projects/933696651",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.5"
-  }
+    "skills_balance": "0.5",
+    "ahll_rank": "123"
+  },
+  "michael_chan_extended_difficulty_rating": "1💣",
+  "ahll_difficulty": "Low 1💣",
+  "ahll_id": "60",
+  "notes": "Verifier/First Victor: Krackerz"
 }

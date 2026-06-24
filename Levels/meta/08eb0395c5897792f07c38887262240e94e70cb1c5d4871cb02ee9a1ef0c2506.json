@@ -1,11 +1,17 @@
 {
   "name": "Sprouts of Pain",
   "creators": "LionCoder10",
-  "official_difficulty": "6.15",
+  "official_difficulty": "2💣",
   "punter_scale_difficulty_rating": "6.15",
   "aldr_id": "101",
   "code_hash": "08eb0395c5897792f07c38887262240e94e70cb1c5d4871cb02ee9a1ef0c2506",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.5"
-  }
+    "skills_balance": "0.5",
+    "ahll_rank": "64"
+  },
+  "michael_chan_extended_difficulty_rating": "2💣",
+  "ahll_difficulty": "Low 2💣",
+  "ahll_id": "29",
+  "source": "Appel Custom Level #4 - Sprouts of Pain",
+  "notes": "Verifier/First Victor: thepurplebanana66\nFastest Time: cwktao - 5:28.9"
 }

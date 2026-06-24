@@ -1,11 +1,17 @@
 {
   "name": "Day Off",
   "creators": "TheGreatYo-Kai",
-  "official_difficulty": "0.00",
+  "official_difficulty": "-",
   "punter_scale_difficulty_rating": "0.00",
   "aldr_id": "349",
   "code_hash": "6ab0117750bdde2ccff6c2f8ec698fe9a34971d519ab9b82809c6d3a2d91b5e3",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.5"
-  }
+    "skills_balance": "0.5",
+    "ahll_rank": "579"
+  },
+  "michael_chan_extended_difficulty_rating": "Auto 🤖",
+  "ahll_difficulty": "Auto 🤖",
+  "ahll_id": "354",
+  "source": "Appel Custom Level 11 - Day off",
+  "notes": "The only auto level in this list\nVerifier/First Victor: TheGreatYo-Kai?"
 }

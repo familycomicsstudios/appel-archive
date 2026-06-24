@@ -1,12 +1,18 @@
 {
   "name": "Agoraphobia",
   "creators": "cwktao15764",
-  "official_difficulty": "8.70",
+  "official_difficulty": "3💣 (8💥)",
   "punter_scale_difficulty_rating": "8.70",
   "aldr_id": "4",
   "code_hash": "92624c2631e7821b048469a704d39264972e47aba644ce0d0ab02f346dbc1c62",
   "source": "https://scratch.mit.edu/projects/1108457092",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.7"
-  }
+    "skills_balance": "0.7",
+    "ahll_rank": "10"
+  },
+  "michael_chan_extended_difficulty_rating": "3💣",
+  "ahll_difficulty": "High 3💣",
+  "ahll_id": "2",
+  "video": "https://scratch.mit.edu/projects/1111469967/",
+  "notes": "Only 8e - more people should be beating this level tbh - it's not that hard\nVerifier/First Victor: Krackerz\nFastest Time: Krackerz - 57:47.2"
 }

@@ -1,12 +1,17 @@
 {
   "name": "Obstruction",
   "creators": "swskrei",
-  "official_difficulty": "1.50",
+  "official_difficulty": "2💥",
   "punter_scale_difficulty_rating": "1.50",
   "aldr_id": "302",
   "code_hash": "ef0249f8ab321457a7ed30a54060825121f25c9b6287ed9fa69332804691024a",
   "source": "https://scratch.mit.edu/projects/953344668",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.5"
-  }
+    "skills_balance": "0.5",
+    "ahll_rank": "551"
+  },
+  "michael_chan_extended_difficulty_rating": "1💥",
+  "ahll_difficulty": "1💥",
+  "ahll_id": "333",
+  "notes": "-\nVerifier/First Victor: swskrei?\nFastest Time: Krackerz, LionCoder10 - 11.6"
 }

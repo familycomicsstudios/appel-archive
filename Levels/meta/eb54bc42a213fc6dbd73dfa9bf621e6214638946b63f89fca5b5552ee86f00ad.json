@@ -1,13 +1,18 @@
 {
   "name": "Key to Success",
   "creators": "MichaelChan",
-  "official_difficulty": "9.00",
+  "official_difficulty": "4💣",
   "punter_scale_difficulty_rating": "9.00",
   "aldr_id": "1",
   "code_hash": "eb54bc42a213fc6dbd73dfa9bf621e6214638946b63f89fca5b5552ee86f00ad",
   "source": "https://scratch.mit.edu/projects/640673038",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.6"
+    "skills_balance": "0.6",
+    "ahll_rank": "7"
   },
-  "video": "https://www.youtube.com/watch?v=xLTpNRP04Wc"
+  "video": "https://www.youtube.com/watch?v=xLTpNRP04Wc",
+  "michael_chan_extended_difficulty_rating": "4💣",
+  "ahll_difficulty": "Low 4💣",
+  "ahll_id": "1",
+  "notes": "Verifier/First Victor: Krackerz\nFastest Time: swskrei - 21.3"
 }

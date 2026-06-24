@@ -1,11 +1,17 @@
 {
   "name": "River of the Burthae",
   "creators": "cwktao15764",
-  "official_difficulty": "1.68",
+  "official_difficulty": "- (Harder ScP)",
   "punter_scale_difficulty_rating": "1.68",
   "aldr_id": "429",
   "code_hash": "8da8215f9a50db2fedc2e6499340f3fbab4c395ea73ab2a818a2f520474e47b9",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.5"
-  }
+    "skills_balance": "0.5",
+    "ahll_rank": "477"
+  },
+  "michael_chan_extended_difficulty_rating": "2💥",
+  "ahll_difficulty": "2💥",
+  "ahll_id": "454",
+  "source": "Forum - 8686601",
+  "notes": "gerald glitch ++\nVerifier/First Victor: cwktao15764\nFastest Time: Krackerz - 12.56"
 }

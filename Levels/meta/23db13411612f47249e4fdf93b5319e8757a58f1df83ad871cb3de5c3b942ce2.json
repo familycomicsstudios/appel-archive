@@ -1,11 +1,17 @@
 {
   "name": "Beast Needle",
   "creators": "KarJ5 & LionCoder10",
-  "official_difficulty": "6.08",
+  "official_difficulty": "1💣",
   "punter_scale_difficulty_rating": "6.08",
   "aldr_id": "105",
   "code_hash": "23db13411612f47249e4fdf93b5319e8757a58f1df83ad871cb3de5c3b942ce2",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.7"
-  }
+    "skills_balance": "0.7",
+    "ahll_rank": "71"
+  },
+  "michael_chan_extended_difficulty_rating": "1💣",
+  "ahll_difficulty": "High 1💣",
+  "ahll_id": "442",
+  "source": "Beast Needle - An Appel collab",
+  "notes": "Verifier/First Victor: Krackerz\nFastest Time: Krackerz - 10:17.6"
 }

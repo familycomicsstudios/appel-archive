@@ -1,11 +1,17 @@
 {
   "name": "Narrow Environment",
   "creators": "TheGreatYo-Kai",
-  "official_difficulty": "0.35",
+  "official_difficulty": "-",
   "punter_scale_difficulty_rating": "0.35",
   "aldr_id": "379",
   "code_hash": "801b5b8b3cd39883930cb6deb3151258811f8244ddf7ae5bc8ce25e53b75e2d5",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.5"
-  }
+    "skills_balance": "0.5",
+    "ahll_rank": "577"
+  },
+  "michael_chan_extended_difficulty_rating": "5⚡",
+  "ahll_difficulty": "5⚡",
+  "ahll_id": "352",
+  "source": "Appel Custom Level 9 - Narrow environment",
+  "notes": "Verifier/First Victor: TheGreatYo-Kai?\nFastest Time: cwktao - 39.46"
 }

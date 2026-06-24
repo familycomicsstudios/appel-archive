@@ -1,12 +1,17 @@
 {
   "name": "Ixion",
   "creators": "OrangeFruit & Krackerz",
-  "official_difficulty": "5.40",
+  "official_difficulty": "1💣",
   "punter_scale_difficulty_rating": "5.40",
   "aldr_id": "132",
   "code_hash": "b51d751810c35e436c7b831090adecbfedd4548d50736bb80ff054a4a593c9d3",
   "source": "https://scratch.mit.edu/projects/896453062",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.5"
-  }
+    "skills_balance": "0.5",
+    "ahll_rank": "115"
+  },
+  "michael_chan_extended_difficulty_rating": "1💣",
+  "ahll_difficulty": "Low 1💣",
+  "ahll_id": "52",
+  "notes": "clutterfunk II\nVerifier/First Victor: Krackerz"
 }

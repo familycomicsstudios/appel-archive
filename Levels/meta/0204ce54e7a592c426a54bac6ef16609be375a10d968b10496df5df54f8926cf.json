@@ -1,12 +1,18 @@
 {
   "name": "Nyctophobia X",
   "creators": "sp1ke-x15",
-  "official_difficulty": "6.65",
+  "official_difficulty": "2💣",
   "punter_scale_difficulty_rating": "6.65",
   "aldr_id": "27",
   "code_hash": "0204ce54e7a592c426a54bac6ef16609be375a10d968b10496df5df54f8926cf",
   "source": "https://www.youtube.com/watch?v=Pkbr40EZkjc",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.7"
-  }
+    "skills_balance": "0.7",
+    "ahll_rank": "51"
+  },
+  "michael_chan_extended_difficulty_rating": "2💣",
+  "ahll_difficulty": "Low 2💣",
+  "ahll_id": "404",
+  "video": "https://www.youtube.com/watch?v=Pkbr40EZkjc",
+  "notes": "Verifier/First Victor: OrangeFruit\nFastest Time: Krackerz ~ 30 mins"
 }

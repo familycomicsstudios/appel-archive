@@ -1,12 +1,18 @@
 {
   "name": "Open Space",
   "creators": "cwktao15764",
-  "official_difficulty": "9.50",
+  "official_difficulty": "4💣 (9💥)",
   "punter_scale_difficulty_rating": "9.50",
   "aldr_id": "119",
   "code_hash": "8bf474881807aa55034a0cf21f60d5eb96fbbe18cec3bf0c75c9902b9226f975",
   "source": "https://scratch.mit.edu/projects/1108457092",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.6"
-  }
+    "skills_balance": "0.6",
+    "ahll_rank": "3"
+  },
+  "michael_chan_extended_difficulty_rating": "4💣",
+  "ahll_difficulty": "Mid 4💣",
+  "ahll_id": "568",
+  "video": "https://scratch.mit.edu/projects/1266769052/",
+  "notes": "Verifier/First Victor: Krackerz\nFastest Time: Krackerz - 11:07.6"
 }

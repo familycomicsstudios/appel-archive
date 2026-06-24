@@ -1,14 +1,18 @@
 {
   "name": "Scarlet Eclipse",
   "creators": "OrangeFruit",
-  "official_difficulty": "5.45",
+  "official_difficulty": "1💣",
   "punter_scale_difficulty_rating": "5.45",
-  "notes": "Formerly called \"Bloodbath\"",
+  "notes": "Bloodbath\nVerifier/First Victor: Krackerz?",
   "aldr_id": "35",
   "code_hash": "3ce7b5d0ec0461c2f6a81ad146f39e399d0ae6e1b086322dc53bbec8953b08a5",
   "source": "https://scratch.mit.edu/projects/896453062",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.5"
+    "skills_balance": "0.5",
+    "ahll_rank": "145"
   },
-  "video": "https://www.youtube.com/watch?v=Yfvhdtk0FsI"
+  "video": "https://www.youtube.com/watch?v=Yfvhdtk0FsI",
+  "michael_chan_extended_difficulty_rating": "1💣",
+  "ahll_difficulty": "Low 1💣",
+  "ahll_id": "73"
 }

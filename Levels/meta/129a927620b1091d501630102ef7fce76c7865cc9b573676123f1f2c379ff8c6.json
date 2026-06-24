@@ -1,11 +1,17 @@
 {
   "name": "Bounce Back",
   "creators": "swskrei",
-  "official_difficulty": "4.37",
+  "official_difficulty": "1💣",
   "punter_scale_difficulty_rating": "4.37",
   "aldr_id": "443",
   "code_hash": "129a927620b1091d501630102ef7fce76c7865cc9b573676123f1f2c379ff8c6",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.5"
-  }
+    "skills_balance": "0.5",
+    "ahll_rank": "170"
+  },
+  "michael_chan_extended_difficulty_rating": "1💣",
+  "ahll_difficulty": "Low 1💣",
+  "ahll_id": "99",
+  "source": "Appel Awakening",
+  "notes": "Verifier/First Victor: swskrei\nFastest Time: swskrei, DapperScratcher - 5.9"
 }

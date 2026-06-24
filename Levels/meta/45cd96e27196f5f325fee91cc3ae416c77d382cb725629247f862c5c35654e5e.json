@@ -1,0 +1,15 @@
+{
+  "name": "Afterlife",
+  "creators": "OrangeFruit & BiskuitzKrackerz",
+  "official_difficulty": "3💥",
+  "michael_chan_extended_difficulty_rating": "2💥",
+  "ahll_difficulty": "2💥",
+  "ahll_id": "305",
+  "other_difficulty_system_ratings": {
+    "ahll_rank": "511"
+  },
+  "source": "Arduous Appel",
+  "video": "https://www.youtube.com/watch?v=Pe6cqo4vAYI",
+  "notes": "This level uses unorthodox tiles, please use the ArA Editor to be able to view it in the editor",
+  "code_hash": "45cd96e27196f5f325fee91cc3ae416c77d382cb725629247f862c5c35654e5e"
+}

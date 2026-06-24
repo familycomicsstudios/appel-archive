@@ -1,0 +1,14 @@
+{
+  "name": "Not So Appeling (NSA)",
+  "creators": "Sup#2.0",
+  "official_difficulty": "-",
+  "michael_chan_extended_difficulty_rating": "5💥",
+  "ahll_difficulty": "5💥",
+  "ahll_id": "176",
+  "other_difficulty_system_ratings": {
+    "ahll_rank": "320"
+  },
+  "source": "Custom Appel Levels",
+  "notes": "Not available in project - level code can be found here https://github.com/Sup2point0/Assort/tree/origin/Scratch/Appel\nVerifier/First Victor: Sup#2.0",
+  "code_hash": "f23fdbda6987b617ce53993826aeb04e03cb99150a399c755dbfd623b76c2180"
+}

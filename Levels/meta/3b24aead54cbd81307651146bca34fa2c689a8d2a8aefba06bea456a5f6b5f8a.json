@@ -1,11 +1,17 @@
 {
   "name": "Octagon Archipelago",
   "creators": "tyclev",
-  "official_difficulty": "6.07",
+  "official_difficulty": "1💣",
   "punter_scale_difficulty_rating": "6.07",
   "aldr_id": "106",
   "code_hash": "3b24aead54cbd81307651146bca34fa2c689a8d2a8aefba06bea456a5f6b5f8a",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.5"
-  }
+    "skills_balance": "0.5",
+    "ahll_rank": "73"
+  },
+  "michael_chan_extended_difficulty_rating": "1💣",
+  "ahll_difficulty": "High 1💣",
+  "ahll_id": "478",
+  "source": "Forum - 8707765",
+  "notes": "Hexagon Dash remake\nVerifier/First Victor: tyclev\nFastest Time: Krackerz - 32.1"
 }

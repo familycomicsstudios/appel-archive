@@ -1,12 +1,18 @@
 {
   "name": "Painbow Road",
   "creators": "TheGrassyGuys",
-  "official_difficulty": "6.06",
+  "official_difficulty": "2💣",
   "punter_scale_difficulty_rating": "6.06",
   "aldr_id": "107",
   "code_hash": "887034ce6066f3ac0c6415c832d18bfb6a296037e15c2573e7004f49212242f4",
   "source": "https://scratch.mit.edu/projects/1099504732",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.4"
-  }
+    "skills_balance": "0.4",
+    "ahll_rank": "76"
+  },
+  "michael_chan_extended_difficulty_rating": "1💣",
+  "ahll_difficulty": "Mid 1💣",
+  "ahll_id": "36",
+  "video": "https://www.youtube.com/shorts/6DWvW5Evr2c",
+  "notes": "This level is surprisingly not as challenging as it looks\nVerifier/First Victor: TheGrassyGuys"
 }

@@ -1,11 +1,16 @@
 {
   "name": "Crumble Time",
   "creators": "CAKEC0DER",
-  "official_difficulty": "4.36",
+  "official_difficulty": "1💣",
   "punter_scale_difficulty_rating": "4.36",
   "aldr_id": "441",
   "code_hash": "079a22211eb54d56baa2f4f75323117290067ae75a41f7164c28671f9598926f",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.5"
-  }
+    "skills_balance": "0.5",
+    "ahll_rank": "171"
+  },
+  "michael_chan_extended_difficulty_rating": "1💣",
+  "ahll_difficulty": "Low 1💣",
+  "ahll_id": "100",
+  "source": "Crumble Time - Custom Level"
 }

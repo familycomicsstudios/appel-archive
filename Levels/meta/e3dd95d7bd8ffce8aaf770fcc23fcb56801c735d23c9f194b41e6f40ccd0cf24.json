@@ -1,12 +1,17 @@
 {
   "name": "The Great Escape",
   "creators": "TheGrassyGuys",
-  "official_difficulty": "6.85",
+  "official_difficulty": "2💣",
   "punter_scale_difficulty_rating": "6.85",
   "aldr_id": "91",
   "code_hash": "e3dd95d7bd8ffce8aaf770fcc23fcb56801c735d23c9f194b41e6f40ccd0cf24",
   "source": "https://scratch.mit.edu/projects/1099504732",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.4"
-  }
+    "skills_balance": "0.4",
+    "ahll_rank": "49"
+  },
+  "michael_chan_extended_difficulty_rating": "2💣",
+  "ahll_difficulty": "Low 2💣",
+  "ahll_id": "384",
+  "notes": "*buffed from release **but then balanced and seminerfed\nVerifier/First Victor: TheGrassyGuys\nFastest Time: TheGrassyGuys - 24.3"
 }

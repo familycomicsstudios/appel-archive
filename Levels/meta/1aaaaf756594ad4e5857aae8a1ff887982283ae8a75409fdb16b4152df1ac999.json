@@ -5,8 +5,15 @@
     "Themadpunter"
   ],
   "description": "An easy tutorial phobia style level",
-  "official_difficulty": "High Easy (1.90)",
+  "official_difficulty": "3💥",
   "punter_scale_difficulty_rating": "1.90",
   "aldr_id": "70",
-  "code_hash": "1aaaaf756594ad4e5857aae8a1ff887982283ae8a75409fdb16b4152df1ac999"
+  "code_hash": "1aaaaf756594ad4e5857aae8a1ff887982283ae8a75409fdb16b4152df1ac999",
+  "michael_chan_extended_difficulty_rating": "2💥",
+  "ahll_difficulty": "2💥",
+  "ahll_id": "444",
+  "other_difficulty_system_ratings": {
+    "ahll_rank": "543"
+  },
+  "notes": "-\nVerifier/First Victor: The_Mad_Punter\nFastest Time: OrangeFruit - 9.0?"
 }

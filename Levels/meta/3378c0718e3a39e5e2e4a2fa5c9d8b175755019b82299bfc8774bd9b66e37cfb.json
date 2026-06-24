@@ -1,13 +1,18 @@
 {
   "name": "Neurofragmentation",
   "creators": "OrangeFruit",
-  "official_difficulty": "6.25",
+  "official_difficulty": "2💣",
   "punter_scale_difficulty_rating": "6.25",
   "aldr_id": "28",
   "code_hash": "3378c0718e3a39e5e2e4a2fa5c9d8b175755019b82299bfc8774bd9b66e37cfb",
   "source": "https://scratch.mit.edu/projects/896453062",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.2"
+    "skills_balance": "0.2",
+    "ahll_rank": "57"
   },
-  "video": "https://www.youtube.com/watch?v=pYYZslKvDU4"
+  "video": "https://www.youtube.com/watch?v=pYYZslKvDU4",
+  "michael_chan_extended_difficulty_rating": "2💣",
+  "ahll_difficulty": "Low 2💣",
+  "ahll_id": "436",
+  "notes": "Verifier/First Victor: cwktao15764\nFastest Time: cwktao - 44.2"
 }

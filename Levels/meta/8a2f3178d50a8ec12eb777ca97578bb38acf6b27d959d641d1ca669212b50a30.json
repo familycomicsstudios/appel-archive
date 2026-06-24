@@ -1,11 +1,17 @@
 {
   "name": "Wastelands",
   "creators": "OrangeFruit",
-  "official_difficulty": "1.25",
+  "official_difficulty": "3💥",
   "punter_scale_difficulty_rating": "1.25",
   "aldr_id": "120",
   "code_hash": "8a2f3178d50a8ec12eb777ca97578bb38acf6b27d959d641d1ca669212b50a30",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.5"
-  }
+    "skills_balance": "0.5",
+    "ahll_rank": "430"
+  },
+  "michael_chan_extended_difficulty_rating": "3💥",
+  "ahll_difficulty": "3💥",
+  "ahll_id": "344",
+  "source": "Volcanic Appel Supreme",
+  "notes": "Not to be confused with 'Wasteland' by Shadowgammer1113 (ID: 337) and \"Wastelands I' by AdamZ333 (ID: 502)\nVerifier/First Victor: OrangeFruit\nFastest Time: Krackerz - 14.8"
 }

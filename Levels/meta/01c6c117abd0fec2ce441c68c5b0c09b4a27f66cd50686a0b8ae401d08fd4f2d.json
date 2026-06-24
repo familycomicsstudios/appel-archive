@@ -1,11 +1,17 @@
 {
   "name": "Thorns",
   "creators": "LionCoder10",
-  "official_difficulty": "6.99",
+  "official_difficulty": "2💣",
   "punter_scale_difficulty_rating": "6.99",
   "aldr_id": "341",
   "code_hash": "01c6c117abd0fec2ce441c68c5b0c09b4a27f66cd50686a0b8ae401d08fd4f2d",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.55"
-  }
+    "skills_balance": "0.55",
+    "ahll_rank": "45"
+  },
+  "michael_chan_extended_difficulty_rating": "2💣",
+  "ahll_difficulty": "Mid 2💣",
+  "ahll_id": "494",
+  "source": "Appel Custom Levels #5 and #6 - Tight Spikes/Thorns",
+  "notes": "Verifier/First Victor: Krackerz\nFastest Time: Krackerz - 20.1"
 }

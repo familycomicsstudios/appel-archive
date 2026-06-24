@@ -1,12 +1,17 @@
 {
   "name": "Concealed",
   "creators": "swskrei",
-  "official_difficulty": "6.01",
+  "official_difficulty": "- (7.25/10)",
   "punter_scale_difficulty_rating": "6.01",
   "aldr_id": "110",
   "code_hash": "2c2f47a388d4829c16d6b84f04e54cc183f545e47e0679a31417d05ec7b379fd",
   "source": "https://scratch.mit.edu/projects/935915275",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.5"
-  }
+    "skills_balance": "0.5",
+    "ahll_rank": "103"
+  },
+  "michael_chan_extended_difficulty_rating": "1💣",
+  "ahll_difficulty": "Mid 1💣",
+  "ahll_id": "48",
+  "notes": "Verifier/First Victor: T Sata?"
 }

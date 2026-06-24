@@ -1,11 +1,17 @@
 {
   "name": "The Incinerator",
   "creators": "KarJ5 & testerbob31",
-  "official_difficulty": "5.95",
+  "official_difficulty": "-",
   "punter_scale_difficulty_rating": "5.95",
   "aldr_id": "114",
   "code_hash": "75b045c55253fe523a7b54d32a0c3912ff489de4f7196693bf65204bfae1bade",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.5"
-  }
+    "skills_balance": "0.5",
+    "ahll_rank": "91"
+  },
+  "michael_chan_extended_difficulty_rating": "1💣",
+  "ahll_difficulty": "Mid 1💣",
+  "ahll_id": "447",
+  "source": "Forum - 8600035",
+  "notes": "Verifier/First Victor: KarJ5\nFastest Time: Krackerz - 23.2"
 }

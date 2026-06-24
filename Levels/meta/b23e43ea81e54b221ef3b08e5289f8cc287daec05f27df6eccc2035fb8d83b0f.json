@@ -1,12 +1,17 @@
 {
   "name": "Rainfall",
   "creators": "swskrei",
-  "official_difficulty": "7.16",
+  "official_difficulty": "2💣",
   "punter_scale_difficulty_rating": "7.16",
   "aldr_id": "16",
   "code_hash": "b23e43ea81e54b221ef3b08e5289f8cc287daec05f27df6eccc2035fb8d83b0f",
   "source": "https://scratch.mit.edu/projects/953344668",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.5"
-  }
+    "skills_balance": "0.5",
+    "ahll_rank": "43"
+  },
+  "michael_chan_extended_difficulty_rating": "2💣",
+  "ahll_difficulty": "High 2💣",
+  "ahll_id": "9",
+  "notes": "Verifier/First Victor: swskrei\nFastest Time: Krackerz - 14.1"
 }

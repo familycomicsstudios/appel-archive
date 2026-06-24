@@ -1,12 +1,17 @@
 {
   "name": "Aichmophobia",
-  "creators": "Krackerz",
-  "official_difficulty": "8.75",
+  "creators": "BiskuitzKrackerz",
+  "official_difficulty": "3💣",
   "punter_scale_difficulty_rating": "8.75",
   "aldr_id": "3",
   "code_hash": "72c22c6164e1e8cfc5b07be7b885db95f11a6c3ee87a4cfcfb778909590c17b4",
   "source": "/assets/thumbnails/Aichmophobia.png",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.7"
-  }
+    "skills_balance": "0.7",
+    "ahll_rank": "9"
+  },
+  "michael_chan_extended_difficulty_rating": "3💣",
+  "ahll_difficulty": "High 3💣",
+  "ahll_id": "3",
+  "notes": "Verifier/First Victor: Krackerz\nFastest Time: Krackerz - 37:42.5"
 }

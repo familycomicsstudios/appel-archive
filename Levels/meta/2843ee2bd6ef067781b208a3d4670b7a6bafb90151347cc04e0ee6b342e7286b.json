@@ -1,13 +1,18 @@
 {
   "name": "Blackmail",
   "creators": "OrangeFruit",
-  "official_difficulty": "6.75",
+  "official_difficulty": "2💣",
   "punter_scale_difficulty_rating": "6.75",
   "aldr_id": "90",
   "code_hash": "2843ee2bd6ef067781b208a3d4670b7a6bafb90151347cc04e0ee6b342e7286b",
   "source": "https://scratch.mit.edu/projects/896453062",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.5"
+    "skills_balance": "0.5",
+    "ahll_rank": "50"
   },
-  "video": "https://www.youtube.com/watch?v=GVAEgbyIaMk"
+  "video": "https://www.youtube.com/watch?v=GVAEgbyIaMk",
+  "michael_chan_extended_difficulty_rating": "2💣",
+  "ahll_difficulty": "Low 2💣",
+  "ahll_id": "17",
+  "notes": "Verifier/First Victor: Krackerz"
 }

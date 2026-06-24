@@ -1,12 +1,17 @@
 {
   "name": "Green Wilderness",
   "creators": "swskrei",
-  "official_difficulty": "6.45",
+  "official_difficulty": "2💣",
   "punter_scale_difficulty_rating": "6.45",
   "aldr_id": "93",
   "code_hash": "7ca588cfb7e8b2b8c77e2dbf9992ae38bac578bbf3d0f1b0457c9328628999a9",
   "source": "https://scratch.mit.edu/projects/953344668",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.5"
-  }
+    "skills_balance": "0.5",
+    "ahll_rank": "54"
+  },
+  "michael_chan_extended_difficulty_rating": "2💣",
+  "ahll_difficulty": "Low 2💣",
+  "ahll_id": "21",
+  "notes": "Verifier/First Victor: swskrei\nFastest Time: swskrei - 8.3"
 }

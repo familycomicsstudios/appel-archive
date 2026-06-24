@@ -1,11 +1,17 @@
 {
   "name": "Methane Maelstrom",
   "creators": "OrangeFruit & dryyyy",
-  "official_difficulty": "4.94",
+  "official_difficulty": "1💣",
   "punter_scale_difficulty_rating": "4.94",
   "aldr_id": "376",
   "code_hash": "7a8ac446b5014424c32d72d566076699fbb16bc2430f8a3716ef6266b7c55bb0",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.5"
-  }
+    "skills_balance": "0.5",
+    "ahll_rank": "160"
+  },
+  "michael_chan_extended_difficulty_rating": "1💣",
+  "ahll_difficulty": "Low 1💣",
+  "ahll_id": "477",
+  "source": "Forum - 8749650",
+  "notes": "finished on may 5th 2025 released later\nVerifier/First Victor: OrangeFruit"
 }

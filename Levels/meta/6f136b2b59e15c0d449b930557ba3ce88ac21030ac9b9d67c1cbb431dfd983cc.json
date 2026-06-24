@@ -1,11 +1,17 @@
 {
   "name": "Lost Cause",
   "creators": "Krackerz",
-  "official_difficulty": "7.29",
+  "official_difficulty": "2💣",
   "punter_scale_difficulty_rating": "7.29",
   "aldr_id": "232",
   "code_hash": "6f136b2b59e15c0d449b930557ba3ce88ac21030ac9b9d67c1cbb431dfd983cc",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.5"
-  }
+    "skills_balance": "0.5",
+    "ahll_rank": "32"
+  },
+  "michael_chan_extended_difficulty_rating": "2💣",
+  "ahll_difficulty": "Mid 2💣",
+  "ahll_id": "514",
+  "source": "Forum - 8825566",
+  "notes": "Verifier/First Victor: Krackerz\nFastest Time: Krackerz - 35.4"
 }

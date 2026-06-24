@@ -1,12 +1,17 @@
 {
   "name": "Crushed (HARD)",
   "creators": "Krackerz",
-  "official_difficulty": "5.65",
+  "official_difficulty": "1💣",
   "punter_scale_difficulty_rating": "5.65",
   "aldr_id": "440",
   "code_hash": "e86e23068210c197d0d0eb46027648710a97c1d4f097792d743e4c2611ec0fb4",
   "source": "https://scratch.mit.edu/projects/933696651",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.5"
-  }
+    "skills_balance": "0.5",
+    "ahll_rank": "126"
+  },
+  "michael_chan_extended_difficulty_rating": "1💣",
+  "ahll_difficulty": "Low 1💣",
+  "ahll_id": "63",
+  "notes": "Verifier/First Victor: Krackerz"
 }

@@ -1,12 +1,17 @@
 {
   "name": "Resistance (HARD)",
   "creators": "Krackerz",
-  "official_difficulty": "6.02",
+  "official_difficulty": "1💣",
   "punter_scale_difficulty_rating": "6.02",
   "aldr_id": "109",
   "code_hash": "7595d93048831fee07b188c64ee156abbccbe0ed23491a48b09d65c65ca9cf7c",
   "source": "https://scratch.mit.edu/projects/933696651",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.7"
-  }
+    "skills_balance": "0.7",
+    "ahll_rank": "101"
+  },
+  "michael_chan_extended_difficulty_rating": "1💣",
+  "ahll_difficulty": "Mid 1💣",
+  "ahll_id": "40",
+  "notes": "Verifier/First Victor: Krackerz"
 }

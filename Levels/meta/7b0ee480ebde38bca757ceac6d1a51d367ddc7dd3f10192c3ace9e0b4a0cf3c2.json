@@ -1,11 +1,17 @@
 {
   "name": "Photophobia",
   "creators": "Krackerz",
-  "official_difficulty": "6.09",
+  "official_difficulty": "1💣",
   "punter_scale_difficulty_rating": "6.09",
   "aldr_id": "104",
   "code_hash": "7b0ee480ebde38bca757ceac6d1a51d367ddc7dd3f10192c3ace9e0b4a0cf3c2",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.65"
-  }
+    "skills_balance": "0.65",
+    "ahll_rank": "70"
+  },
+  "michael_chan_extended_difficulty_rating": "1💣",
+  "ahll_difficulty": "High 1💣",
+  "ahll_id": "33",
+  "source": "Custom Level #16 - Photophobia",
+  "notes": "Extreme Brightness (Appel Playground): https://scratch.mit.edu/discuss/post/8483143/\nVerifier/First Victor: Krackerz"
 }

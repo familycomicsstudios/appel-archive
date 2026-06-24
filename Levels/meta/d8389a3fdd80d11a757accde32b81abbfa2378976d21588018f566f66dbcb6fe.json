@@ -1,13 +1,18 @@
 {
   "name": "Among the Stars (C-Side)",
   "creators": "TheGrassyGuys",
-  "official_difficulty": "10.50",
+  "official_difficulty": "5💣",
   "punter_scale_difficulty_rating": "10.50",
   "aldr_id": "2",
   "code_hash": "d8389a3fdd80d11a757accde32b81abbfa2378976d21588018f566f66dbcb6fe",
   "source": "https://scratch.mit.edu/projects/1231418160/",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.55"
+    "skills_balance": "0.55",
+    "ahll_rank": "1"
   },
-  "video": "https://www.youtube.com/watch?v=-2NHcpYN_PM"
+  "video": "https://www.youtube.com/watch?v=-2NHcpYN_PM",
+  "michael_chan_extended_difficulty_rating": "5💣",
+  "ahll_difficulty": "High 5💣",
+  "ahll_id": "400",
+  "notes": "New top 1 starting 7/6/25-7/7/25 after a very long time :) ... thumb made with AWCC - I gave up on the background tho so its size 11 when its supposed to be ~9\nVerifier/First Victor: TheGrassyGuys\nFastest Time: TheGrassyGuys - 32.5"
 }

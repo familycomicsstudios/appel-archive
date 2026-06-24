@@ -1,13 +1,18 @@
 {
   "name": "Black Plague",
   "creators": "MichaelChan",
-  "official_difficulty": "3.35",
+  "official_difficulty": "6💥",
   "punter_scale_difficulty_rating": "3.35",
   "aldr_id": "52",
   "code_hash": "07cfdfd1c587d782b9657ff09daf35015e1c492c53738864583ed3bfa767f69d",
   "source": "https://scratch.mit.edu/projects/640673038",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.45"
+    "skills_balance": "0.45",
+    "ahll_rank": "295"
   },
-  "video": "https://www.youtube.com/watch?v=fPkyQqH3w6A&list=PLl54lUDD_62NleKrgcl5w_tB-BvC3LgFw&index=8&pp=iAQB"
+  "video": "https://www.youtube.com/watch?v=fPkyQqH3w6A&list=PLl54lUDD_62NleKrgcl5w_tB-BvC3LgFw&index=8&pp=iAQB",
+  "michael_chan_extended_difficulty_rating": "6💥",
+  "ahll_difficulty": "6💥",
+  "ahll_id": "162",
+  "notes": "Verifier/First Victor: Michael Chan\nFastest Time: swskrei - 36.6"
 }

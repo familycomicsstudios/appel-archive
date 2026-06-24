@@ -1,13 +1,18 @@
 {
   "name": "Lethe",
   "creators": "CAKEC0DER & taliix",
-  "official_difficulty": "7.07",
+  "official_difficulty": "(5💣)",
   "punter_scale_difficulty_rating": "7.07",
   "aldr_id": "22",
   "code_hash": "99573ea5b567b7f3cb68ce8ee4afaa22f6e1df40a98ef67d391a6650d933df45",
   "source": "https://scratch.mit.edu/projects/1037279101",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.4"
+    "skills_balance": "0.4",
+    "ahll_rank": "40"
   },
-  "video": "https://www.youtube.com/watch?v=IVWncgZS3Eo"
+  "video": "https://www.youtube.com/watch?v=IVWncgZS3Eo",
+  "michael_chan_extended_difficulty_rating": "2💣",
+  "ahll_difficulty": "Mid 2💣",
+  "ahll_id": "439",
+  "notes": "🧀\nVerifier/First Victor: TheGrassyGuys\nFastest Time: Krackerz - 21.2"
 }

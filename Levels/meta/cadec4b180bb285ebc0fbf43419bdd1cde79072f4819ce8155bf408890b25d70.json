@@ -1,12 +1,17 @@
 {
   "name": "Perfection",
   "creators": "Krackerz",
-  "official_difficulty": "5.74",
+  "official_difficulty": "1💣",
   "punter_scale_difficulty_rating": "5.74",
   "aldr_id": "117",
   "code_hash": "cadec4b180bb285ebc0fbf43419bdd1cde79072f4819ce8155bf408890b25d70",
   "source": "https://scratch.mit.edu/projects/970869402",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.5"
-  }
+    "skills_balance": "0.5",
+    "ahll_rank": "95"
+  },
+  "michael_chan_extended_difficulty_rating": "1💣",
+  "ahll_difficulty": "Mid 1💣",
+  "ahll_id": "43",
+  "notes": "Verifier/First Victor: Krackerz\nFastest Time: Krackerz - 13.4"
 }

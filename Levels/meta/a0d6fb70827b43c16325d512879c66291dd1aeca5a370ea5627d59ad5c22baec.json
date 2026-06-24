@@ -1,13 +1,18 @@
 {
   "name": "Trigonometric",
   "creators": "OrangeFruit",
-  "official_difficulty": "3.25",
+  "official_difficulty": "5💥",
   "punter_scale_difficulty_rating": "3.25",
   "aldr_id": "54",
   "code_hash": "a0d6fb70827b43c16325d512879c66291dd1aeca5a370ea5627d59ad5c22baec",
   "source": "https://scratch.mit.edu/projects/896453062",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.6"
+    "skills_balance": "0.6",
+    "ahll_rank": "350"
   },
-  "video": "https://www.youtube.com/watch?v=3nDHEttwrb0"
+  "video": "https://www.youtube.com/watch?v=3nDHEttwrb0",
+  "michael_chan_extended_difficulty_rating": "5💥",
+  "ahll_difficulty": "5💥",
+  "ahll_id": "196",
+  "notes": "Verifier/First Victor: OrangeFruit\nFastest Time: Krackerz - 16.9?"
 }

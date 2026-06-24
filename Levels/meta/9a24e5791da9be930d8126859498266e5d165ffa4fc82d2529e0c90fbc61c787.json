@@ -1,12 +1,17 @@
 {
   "name": "Erebus",
   "creators": "Krackerz",
-  "official_difficulty": "5.71",
+  "official_difficulty": "1💣",
   "punter_scale_difficulty_rating": "5.71",
   "aldr_id": "123",
   "code_hash": "9a24e5791da9be930d8126859498266e5d165ffa4fc82d2529e0c90fbc61c787",
   "source": "https://scratch.mit.edu/projects/970869402",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.5"
-  }
+    "skills_balance": "0.5",
+    "ahll_rank": "99"
+  },
+  "michael_chan_extended_difficulty_rating": "1💣",
+  "ahll_difficulty": "Mid 1💣",
+  "ahll_id": "46",
+  "notes": "Verifier/First Victor: Krackerz"
 }

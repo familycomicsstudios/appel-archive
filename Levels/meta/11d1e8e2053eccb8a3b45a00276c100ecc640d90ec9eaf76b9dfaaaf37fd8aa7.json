@@ -1,12 +1,17 @@
 {
   "name": "Phlegthlon",
   "creators": "CAKEC0DER & taliix",
-  "official_difficulty": "6.23",
+  "official_difficulty": "2💣",
   "punter_scale_difficulty_rating": "6.23",
   "aldr_id": "97",
   "code_hash": "11d1e8e2053eccb8a3b45a00276c100ecc640d90ec9eaf76b9dfaaaf37fd8aa7",
   "source": "https://scratch.mit.edu/projects/1037279101",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.5"
-  }
+    "skills_balance": "0.5",
+    "ahll_rank": "58"
+  },
+  "michael_chan_extended_difficulty_rating": "2💣",
+  "ahll_difficulty": "Low 2💣",
+  "ahll_id": "25",
+  "notes": "Verifier/First Victor: Krackerz"
 }

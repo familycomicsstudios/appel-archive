@@ -1,12 +1,17 @@
 {
   "name": "Black Lite",
   "creators": "taliix",
-  "official_difficulty": "7.75",
+  "official_difficulty": "1💣",
   "punter_scale_difficulty_rating": "7.75",
   "aldr_id": "200",
   "code_hash": "1541c6eb9ecffc91c395b4528443607b12a6c59bedb72e495db42dd61c324e76",
   "source": "https://www.youtube.com/watch?v=oVZIzEbNzig",
   "other_difficulty_system_ratings": {
-    "skills_balance": "0.65"
-  }
+    "skills_balance": "0.65",
+    "ahll_rank": "21"
+  },
+  "michael_chan_extended_difficulty_rating": "3💣",
+  "ahll_difficulty": "Low 3💣",
+  "ahll_id": "561",
+  "notes": "Verifier/First Victor: TheGrassyGuys"
 }

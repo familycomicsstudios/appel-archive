@@ -162,6 +162,12 @@
     "sample_values": ["123", "456"]
   },
   {
+    "field": "ahll_difficulty",
+    "display_name": "AHLL Difficulty",
+    "description": "The difficulty rating of the level on the AHLL, including subtier text.",
+    "sample_values": ["High 5💣", "Mid 4💣"]
+  },
+  {
     "field": "aill_id",
     "display_name": "AILL ID",
     "description": "The unique ID of the level on the AILL, if it is placed there.",
